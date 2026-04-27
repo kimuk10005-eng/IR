@@ -1,0 +1,57 @@
+﻿record_type,baseline_raw,base_raw,current_raw,change,graph,raw_data
+info,,,,,,Initial floor measurement (5s)... Keep the sensor on the empty floor.
+info,,,,,,START received
+baseline,880.0,,,,880.0,Collecting baseline... RawAvg=880.00
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.0,,,,880.0,Collecting baseline... RawAvg=880.00
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.6,,,,880.6,Collecting baseline... RawAvg=880.60
+baseline,880.8,,,,880.8,Collecting baseline... RawAvg=880.80
+baseline,881.0,,,,881.0,Collecting baseline... RawAvg=881.00
+baseline,881.0,,,,881.0,Collecting baseline... RawAvg=881.00
+baseline,880.8,,,,880.8,Collecting baseline... RawAvg=880.80
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.2,,,,880.2,Collecting baseline... RawAvg=880.20
+baseline,880.0,,,,880.0,Collecting baseline... RawAvg=880.00
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+baseline,880.4,,,,880.4,Collecting baseline... RawAvg=880.40
+info,,,,,,Baseline collection complete! Starting detection.
+final_base,,880.4,,,880.4,Final Base Raw Average = 880.40
+info,,,,,,--------------------------------------------------------------------------
+data,,880.4,879.6,0.8,879.6,Time=6.1s | BaseRaw=880.4 | CurrentRaw=879.6 | Change=0.8 => Floor
+data,,880.4,879.2,1.2,879.2,Time=6.2s | BaseRaw=880.4 | CurrentRaw=879.2 | Change=1.2 => Floor

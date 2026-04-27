@@ -1,0 +1,12 @@
+{
+  "target_len": 32,
+  "floor_window": 32,
+  "floor_step": 8,
+  "liquid_baseline_tail": 20,
+  "threshold": 0.5,
+  "label_map": {
+    "0": "floor",
+    "1": "liquid"
+  },
+  "feature_channels": 4
+}

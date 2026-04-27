@@ -1,0 +1,70 @@
+==========================================================================================
+상태유지 v2 이진학습 시작
+[DB] C:\Users\MASL\Desktop\코드개선\3차 수동\3rd_수동
+[SAVE] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save
+[encoder 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\encoder.pkl
+[CSV 개수] 46
+[SKIP] 검대: 파일 없음
+------------------------------------------------------------------------------------------
+[FLOOR] 회대 | files=24
+[LOAD] 회대 기름 밝음(1)_fall.csv | len=8 | base=823.34 | event=True | floorfile=False
+[LOAD] 회대 기름 밝음(1)_rise.csv | len=6 | base=823.34 | event=True | floorfile=False
+[LOAD] 회대 기름 어둠_fall.csv | len=11 | base=859.34 | event=True | floorfile=False
+[LOAD] 회대 기름 어둠_rise.csv | len=10 | base=859.34 | event=True | floorfile=False
+[LOAD] 회대 망고 밝음_fall.csv | len=7 | base=862.38 | event=True | floorfile=False
+[LOAD] 회대 망고 밝음_rise.csv | len=7 | base=862.38 | event=True | floorfile=False
+[LOAD] 회대 망고 어둠_fall.csv | len=10 | base=798.96 | event=True | floorfile=False
+[LOAD] 회대 망고 어둠_rise.csv | len=10 | base=798.96 | event=True | floorfile=False
+[LOAD] 회대 물 밝음_fall.csv | len=13 | base=813.22 | event=True | floorfile=False
+[LOAD] 회대 물 밝음_rise.csv | len=12 | base=813.22 | event=True | floorfile=False
+[LOAD] 회대 물 어둠_fall.csv | len=7 | base=867.90 | event=True | floorfile=False
+[LOAD] 회대 물 어둠_rise.csv | len=10 | base=867.90 | event=True | floorfile=False
+[LOAD] 회대 우유 밝음_fall.csv | len=11 | base=816.94 | event=True | floorfile=False
+[LOAD] 회대 우유 밝음_rise.csv | len=13 | base=816.94 | event=True | floorfile=False
+[LOAD] 회대 우유 어둠_fall.csv | len=10 | base=867.42 | event=True | floorfile=False
+[LOAD] 회대 우유 어둠_rise.csv | len=12 | base=867.42 | event=True | floorfile=False
+[LOAD] 회대 커피 밝음_fall.csv | len=8 | base=830.91 | event=True | floorfile=False
+[LOAD] 회대 커피 밝음_rise.csv | len=9 | base=830.91 | event=True | floorfile=False
+[LOAD] 회대 커피 어둠_fall.csv | len=7 | base=853.72 | event=True | floorfile=False
+[LOAD] 회대 커피 어둠_rise.csv | len=9 | base=853.72 | event=True | floorfile=False
+[LOAD] 회대 콜라 밝음_fall.csv | len=11 | base=828.40 | event=True | floorfile=False
+[LOAD] 회대 콜라 밝음_rise.csv | len=11 | base=828.40 | event=True | floorfile=False
+[LOAD] 회대 콜라 어둠_fall.csv | len=10 | base=880.40 | event=True | floorfile=False
+[LOAD] 회대 콜라 어둠_rise.csv | len=8 | base=880.40 | event=True | floorfile=False
+[TRAIN] 회대 | samples=48 | dist={'액체': 48}
+[모델 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\model_회대.keras
+------------------------------------------------------------------------------------------
+[FLOOR] 황대 | files=22
+[LOAD] 황대 기름 밝음_fall.csv | len=14 | base=815.97 | event=True | floorfile=False
+[LOAD] 황대 기름 밝음_rise.csv | len=12 | base=815.97 | event=True | floorfile=False
+[LOAD] 황대 기름 어둠_fall.csv | len=9 | base=840.33 | event=True | floorfile=False
+[LOAD] 황대 기름 어둠_rise.csv | len=7 | base=840.33 | event=True | floorfile=False
+[LOAD] 황대 망고 밝음_fall.csv | len=14 | base=805.31 | event=True | floorfile=False
+[LOAD] 황대 망고 밝음_rise.csv | len=12 | base=805.31 | event=True | floorfile=False
+[LOAD] 황대 망고 어둠_fall.csv | len=10 | base=832.20 | event=True | floorfile=False
+[LOAD] 황대 망고 어둠_rise.csv | len=10 | base=832.20 | event=True | floorfile=False
+[LOAD] 황대 물 밝음_fall.csv | len=11 | base=813.17 | event=True | floorfile=False
+[LOAD] 황대 물 밝음_rise.csv | len=12 | base=813.17 | event=True | floorfile=False
+[LOAD] 황대 물 어둠_fall.csv | len=9 | base=833.54 | event=True | floorfile=False
+[LOAD] 황대 물 어둠_rise.csv | len=16 | base=833.54 | event=True | floorfile=False
+  [ADD] 황대 물 어둠_rise.csv | label=액체 | +2
+[LOAD] 황대 우유 밝음_fall.csv | len=11 | base=819.25 | event=True | floorfile=False
+[LOAD] 황대 우유 밝음_rise.csv | len=11 | base=819.25 | event=True | floorfile=False
+[LOAD] 황대 우유 어둠_fall.csv | len=10 | base=832.27 | event=True | floorfile=False
+[LOAD] 황대 우유 어둠_rise.csv | len=12 | base=832.27 | event=True | floorfile=False
+[LOAD] 황대 커피 밝음_fall.csv | len=10 | base=787.12 | event=True | floorfile=False
+[LOAD] 황대 커피 밝음_rise.csv | len=10 | base=787.12 | event=True | floorfile=False
+[LOAD] 황대 커피 어둠_fall.csv | len=10 | base=834.66 | event=True | floorfile=False
+[LOAD] 황대 커피 어둠_rise.csv | len=11 | base=834.66 | event=True | floorfile=False
+[LOAD] 황대 콜라 어둠_fall.csv | len=11 | base=840.22 | event=True | floorfile=False
+[LOAD] 황대 콜라 어둠_rise.csv | len=11 | base=840.22 | event=True | floorfile=False
+[TRAIN] 황대 | samples=46 | dist={'액체': 46}
+[모델 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\model_황대.keras
+[SKIP] 207회바: 파일 없음
+[SKIP] 흰책상: 파일 없음
+[SKIP] 나타: 파일 없음
+[SKIP] 회타: 파일 없음
+[SKIP] 나무: 파일 없음
+==========================================================================================
+학습 완료
+[학습 로그] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\train_state_anchor_binary_20260329_222336.txt

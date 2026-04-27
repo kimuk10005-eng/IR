@@ -1,0 +1,125 @@
+[CSV] C:\Users\MASL\Desktop\ir data(get)\시나리오\회대 시나리오 밝음.csv
+[결과 폴더] C:\Users\MASL\Desktop\코드개선\3차 수동\predict_results\회대_20260329_215024
+[바닥] 회대
+[baseline] 819.522
+전체 window 수: 115
+바닥: 9개 (7.8%)
+액체: 106개 (92.2%)
+가장 많이 나온 액체: 커피 (53 windows)
+
+[상세 window]
+[001]    0-  15 | final=  망고 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 33.01/327.80 | chg= 33.01 | grad=163.90 | edge=0.20 | anchor=819.52
+[002]    5-  20 | final=  망고 | state=LIQUID_HOLD | model=  우유( 10.7) | nonfloor=  우유( 10.7) | anch_ofs=  0.74/  2.64 | chg=  0.74 | grad= 0.60 | edge=0.00 | anchor=819.52
+[003]   10-  25 | final=  바닥 | state=      FLOOR | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs=  2.10/  5.44 | chg=  2.10 | grad= 0.62 | edge=0.00 | anchor=770.51
+[004]   15-  30 | final=  바닥 | state=      FLOOR | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 52.98/ 55.09 | chg=  3.97 | grad= 0.62 | edge=0.00 | anchor=772.10
+[005]   20-  35 | final=  바닥 | state=      FLOOR | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 52.96/ 53.82 | chg=  5.54 | grad= 0.62 | edge=0.00 | anchor=773.69
+[006]   25-  40 | final=  바닥 | state=      FLOOR | model=   물( 11.0) | nonfloor=   물( 11.0) | anch_ofs= 52.14/ 52.99 | chg=  6.31 | grad= 0.32 | edge=0.00 | anchor=775.25
+[007]   30-  45 | final=  커피 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs=  3.79/ 51.63 | chg=  6.03 | grad= 7.40 | edge=0.27 | anchor=822.59
+[008]   35-  50 | final=  커피 | state=LIQUID_HOLD | model=  커피( 10.9) | nonfloor=  커피( 10.9) | anch_ofs= 12.78/ 38.43 | chg= 12.99 | grad= 7.86 | edge=0.60 | anchor=822.59
+[009]   40-  55 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 24.90/ 40.75 | chg= 23.06 | grad= 7.86 | edge=0.60 | anchor=822.59
+[010]   45-  60 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 37.24/ 41.83 | chg= 34.17 | grad= 7.86 | edge=0.33 | anchor=822.59
+[011]   50-  65 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 41.12/ 41.99 | chg= 38.06 | grad= 0.58 | edge=0.00 | anchor=822.59
+[012]   55-  70 | final=  커피 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs= 41.85/ 42.55 | chg= 38.79 | grad= 1.12 | edge=0.07 | anchor=822.59
+[013]   60-  75 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.7) | nonfloor=  우유( 10.7) | anch_ofs= 40.03/ 42.55 | chg= 36.96 | grad= 1.98 | edge=0.40 | anchor=822.59
+[014]   65-  80 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 35.50/ 42.55 | chg= 32.44 | grad= 1.98 | edge=0.67 | anchor=822.59
+[015]   70-  85 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 30.14/ 39.95 | chg= 27.07 | grad= 1.98 | edge=0.60 | anchor=822.59
+[016]   75-  90 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.2) | nonfloor=  기름( 11.2) | anch_ofs= 27.01/ 30.55 | chg= 23.94 | grad= 1.50 | edge=0.27 | anchor=822.59
+[017]   80-  95 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.7) | nonfloor=  우유( 10.7) | anch_ofs= 24.25/ 26.91 | chg= 21.19 | grad= 6.70 | edge=0.33 | anchor=822.59
+[018]   85- 100 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs= 18.93/ 26.91 | chg= 17.50 | grad= 7.44 | edge=0.67 | anchor=822.59
+[019]   90- 105 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 16.05/ 25.67 | chg= 16.67 | grad= 7.44 | edge=0.67 | anchor=822.59
+[020]   95- 110 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 14.81/ 18.53 | chg= 17.46 | grad= 7.44 | edge=0.33 | anchor=822.59
+[021]  100- 115 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 16.03/ 18.53 | chg= 19.09 | grad= 0.62 | edge=0.00 | anchor=822.59
+[022]  105- 120 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 13.96/ 17.29 | chg= 17.02 | grad= 0.62 | edge=0.00 | anchor=822.59
+[023]  110- 125 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 12.46/ 14.53 | chg= 15.53 | grad= 0.54 | edge=0.00 | anchor=822.59
+[024]  115- 130 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.2) | nonfloor=  우유( 11.2) | anch_ofs= 12.26/ 13.25 | chg= 15.33 | grad= 0.42 | edge=0.00 | anchor=822.59
+[025]  120- 135 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 12.92/ 14.37 | chg= 15.98 | grad= 0.42 | edge=0.00 | anchor=822.59
+[026]  125- 140 | final=  커피 | state=LIQUID_HOLD | model=  망고( 10.9) | nonfloor=  망고( 10.9) | anch_ofs= 13.91/ 14.89 | chg= 16.97 | grad= 0.30 | edge=0.00 | anchor=822.59
+[027]  130- 145 | final=  커피 | state=LIQUID_HOLD | model=   물( 10.9) | nonfloor=   물( 10.9) | anch_ofs= 14.81/ 17.49 | chg= 17.87 | grad= 1.64 | edge=0.13 | anchor=822.59
+[028]  135- 150 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs= 18.44/ 29.65 | chg= 21.50 | grad= 2.82 | edge=0.47 | anchor=822.59
+[029]  140- 155 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.0) | nonfloor=  망고( 11.0) | anch_ofs= 24.14/ 32.13 | chg= 27.20 | grad= 2.82 | edge=0.53 | anchor=822.59
+[030]  145- 160 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 29.47/ 32.13 | chg= 32.53 | grad= 2.82 | edge=0.40 | anchor=822.59
+[031]  150- 165 | final=  커피 | state=LIQUID_HOLD | model=  커피( 10.9) | nonfloor=  커피( 10.9) | anch_ofs= 31.24/ 32.13 | chg= 34.30 | grad= 1.10 | edge=0.07 | anchor=822.59
+[032]  155- 170 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 30.19/ 32.09 | chg= 33.25 | grad= 0.50 | edge=0.00 | anchor=822.59
+[033]  160- 175 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 29.08/ 30.93 | chg= 32.14 | grad= 0.50 | edge=0.00 | anchor=822.59
+[034]  165- 180 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 28.74/ 29.41 | chg= 31.81 | grad= 0.22 | edge=0.00 | anchor=822.59
+[035]  170- 185 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 29.10/ 30.01 | chg= 32.16 | grad= 0.22 | edge=0.00 | anchor=822.59
+[036]  175- 190 | final=  커피 | state=LIQUID_HOLD | model=  망고( 10.9) | nonfloor=  망고( 10.9) | anch_ofs= 29.84/ 31.21 | chg= 32.90 | grad= 0.24 | edge=0.00 | anchor=822.59
+[037]  180- 195 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 30.68/ 31.81 | chg= 33.74 | grad= 0.78 | edge=0.07 | anchor=822.59
+[038]  185- 200 | final=  커피 | state=LIQUID_HOLD | model=  커피( 11.1) | nonfloor=  커피( 11.1) | anch_ofs= 29.22/ 31.81 | chg= 32.28 | grad= 2.82 | edge=0.40 | anchor=822.59
+[039]  190- 205 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 23.85/ 31.81 | chg= 26.91 | grad= 2.82 | edge=0.60 | anchor=822.59
+[040]  195- 210 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 17.13/ 30.09 | chg= 20.19 | grad= 2.82 | edge=0.73 | anchor=822.59
+[041]  200- 215 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 11.01/ 17.33 | chg= 14.07 | grad= 2.34 | edge=0.53 | anchor=822.59
+[042]  205- 220 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs=  7.91/ 12.69 | chg= 10.97 | grad= 1.06 | edge=0.33 | anchor=822.59
+[043]  210- 225 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs=  5.82/  8.57 | chg=  8.89 | grad= 0.98 | edge=0.13 | anchor=822.59
+[044]  215- 230 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs=  5.61/  7.13 | chg=  8.67 | grad= 0.48 | edge=0.00 | anchor=822.59
+[045]  220- 235 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs=  6.72/  9.65 | chg=  9.79 | grad= 0.52 | edge=0.00 | anchor=822.59
+[046]  225- 240 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.0) | nonfloor=  망고( 11.0) | anch_ofs=  8.51/ 10.93 | chg= 11.57 | grad= 0.52 | edge=0.00 | anchor=822.59
+[047]  230- 245 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 10.23/ 11.89 | chg= 13.30 | grad= 0.52 | edge=0.00 | anchor=822.59
+[048]  235- 250 | final=  커피 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 11.29/ 12.13 | chg= 14.35 | grad= 1.64 | edge=0.07 | anchor=822.59
+[049]  240- 255 | final=  커피 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs= 12.00/ 29.71 | chg= 13.84 | grad=13.72 | edge=0.40 | anchor=822.59
+[050]  245- 260 | final=  커피 | state=LIQUID_HOLD | model=  커피( 10.8) | nonfloor=  커피( 10.8) | anch_ofs= 28.35/ 71.43 | chg= 28.14 | grad=13.72 | edge=0.73 | anchor=822.59
+[051]  250- 265 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 48.64/ 73.43 | chg= 46.40 | grad=13.72 | edge=0.67 | anchor=822.59
+[052]  255- 270 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 69.11/ 74.27 | chg= 66.05 | grad=12.82 | edge=0.33 | anchor=822.59
+[053]  260- 275 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 73.77/ 74.75 | chg= 70.71 | grad= 0.46 | edge=0.00 | anchor=822.59
+[054]  265- 280 | final=  커피 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 74.27/ 74.75 | chg= 71.20 | grad= 0.62 | edge=0.00 | anchor=822.59
+[055]  270- 285 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 73.40/ 74.75 | chg= 70.34 | grad= 0.72 | edge=0.00 | anchor=822.59
+[056]  275- 290 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 71.19/ 74.75 | chg= 68.13 | grad= 6.22 | edge=0.20 | anchor=822.59
+[057]  280- 295 | final=  커피 | state=LIQUID_HOLD | model=  우유( 10.7) | nonfloor=  우유( 10.7) | anch_ofs= 57.14/ 72.71 | chg= 54.07 | grad=12.48 | edge=0.53 | anchor=822.59
+[058]  285- 300 | final=  커피 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 34.41/ 70.07 | chg= 33.06 | grad=12.48 | edge=0.73 | anchor=822.59
+[059]  290- 305 | final=  커피 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 13.30/ 55.03 | chg= 13.99 | grad=12.48 | edge=0.53 | anchor=822.59
+[060]  295- 310 | final=  바닥 | state=      FLOOR | model=  망고( 11.3) | nonfloor=  망고( 11.3) | anch_ofs=  4.20/  4.77 | chg=  6.93 | grad= 5.66 | edge=0.20 | anchor=822.59
+[061]  300- 315 | final=  바닥 | state=      FLOOR | model=  커피( 11.1) | nonfloor=  커피( 11.1) | anch_ofs=  4.57/  4.77 | chg=  7.63 | grad= 0.12 | edge=0.00 | anchor=822.72
+[062]  305- 320 | final=  바닥 | state=      FLOOR | model=  커피( 10.8) | nonfloor=  커피( 10.8) | anch_ofs=  4.15/  4.64 | chg=  7.35 | grad= 0.14 | edge=0.00 | anchor=822.85
+[063]  310- 325 | final=  바닥 | state=      FLOOR | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs=  3.66/  4.27 | chg=  6.98 | grad= 0.22 | edge=0.00 | anchor=822.96
+[064]  315- 330 | final=  바닥 | state=      FLOOR | model=  우유( 11.3) | nonfloor=  우유( 11.3) | anch_ofs=  3.46/  3.96 | chg=  6.89 | grad= 0.26 | edge=0.00 | anchor=823.06
+[065]  320- 335 | final=   물 | state=LIQUID_HOLD | model=   물( 10.7) | nonfloor=   물( 10.7) | anch_ofs=  2.15/ 18.58 | chg=  8.83 | grad= 7.32 | edge=0.27 | anchor=826.96
+[066]  325- 340 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs= 14.77/ 52.12 | chg= 21.95 | grad= 8.64 | edge=0.60 | anchor=826.96
+[067]  330- 345 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 33.86/ 58.44 | chg= 41.24 | grad= 8.64 | edge=0.73 | anchor=826.96
+[068]  335- 350 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 51.42/ 58.44 | chg= 58.85 | grad= 8.64 | edge=0.47 | anchor=826.96
+[069]  340- 355 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 57.64/ 58.44 | chg= 65.07 | grad= 2.64 | edge=0.13 | anchor=826.96
+[070]  345- 360 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 57.34/ 58.36 | chg= 64.77 | grad= 0.18 | edge=0.00 | anchor=826.96
+[071]  350- 365 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 57.25/ 58.68 | chg= 64.69 | grad= 0.46 | edge=0.00 | anchor=826.96
+[072]  355- 370 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.1) | nonfloor=  우유( 11.1) | anch_ofs= 58.00/ 59.80 | chg= 65.43 | grad= 0.46 | edge=0.00 | anchor=826.96
+[073]  360- 375 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 59.23/ 61.00 | chg= 66.66 | grad= 0.46 | edge=0.00 | anchor=826.96
+[074]  365- 380 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 60.52/ 61.80 | chg= 67.95 | grad= 0.36 | edge=0.00 | anchor=826.96
+[075]  370- 385 | final=   물 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs= 60.61/ 61.80 | chg= 68.04 | grad= 4.40 | edge=0.20 | anchor=826.96
+[076]  375- 390 | final=   물 | state=LIQUID_HOLD | model=  커피( 10.9) | nonfloor=  커피( 10.9) | anch_ofs= 51.67/ 61.80 | chg= 59.10 | grad= 9.38 | edge=0.53 | anchor=826.96
+[077]  380- 395 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 34.02/ 61.40 | chg= 41.45 | grad= 9.38 | edge=0.67 | anchor=826.96
+[078]  385- 400 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 17.01/ 50.60 | chg= 24.45 | grad= 9.38 | edge=0.47 | anchor=826.96
+[079]  390- 405 | final=   물 | state=LIQUID_HOLD | model=  우유( 12.0) | nonfloor=  우유( 12.0) | anch_ofs=  8.66/ 11.44 | chg= 16.10 | grad= 4.06 | edge=0.13 | anchor=826.96
+[080]  395- 410 | final=   물 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs=  8.42/  8.88 | chg= 15.85 | grad= 0.24 | edge=0.00 | anchor=826.96
+[081]  400- 415 | final=   물 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs=  8.30/  8.80 | chg= 15.74 | grad= 0.18 | edge=0.00 | anchor=826.96
+[082]  405- 420 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs=  8.35/  9.12 | chg= 15.79 | grad= 0.28 | edge=0.00 | anchor=826.96
+[083]  410- 425 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs=  9.05/ 11.28 | chg= 16.49 | grad= 1.64 | edge=0.07 | anchor=826.96
+[084]  415- 430 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.8) | nonfloor=  우유( 10.8) | anch_ofs= 14.47/ 38.12 | chg= 21.90 | grad= 7.38 | edge=0.40 | anchor=826.96
+[085]  420- 435 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 28.71/ 54.88 | chg= 36.15 | grad= 7.38 | edge=0.67 | anchor=826.96
+[086]  425- 440 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 43.56/ 54.88 | chg= 51.00 | grad= 7.38 | edge=0.60 | anchor=826.96
+[087]  430- 445 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.2) | nonfloor=  망고( 11.2) | anch_ofs= 53.48/ 54.88 | chg= 60.91 | grad= 5.84 | edge=0.27 | anchor=826.96
+[088]  435- 450 | final=   물 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 54.43/ 54.80 | chg= 61.86 | grad= 0.10 | edge=0.00 | anchor=826.96
+[089]  440- 455 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 54.49/ 55.00 | chg= 61.92 | grad= 0.14 | edge=0.00 | anchor=826.96
+[090]  445- 460 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 54.70/ 55.04 | chg= 62.13 | grad= 0.14 | edge=0.00 | anchor=826.96
+[091]  450- 465 | final=   물 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs= 54.38/ 55.04 | chg= 61.82 | grad= 4.36 | edge=0.20 | anchor=826.96
+[092]  455- 470 | final=   물 | state=LIQUID_HOLD | model=  커피( 10.9) | nonfloor=  커피( 10.9) | anch_ofs= 46.14/ 55.04 | chg= 53.57 | grad= 7.30 | edge=0.53 | anchor=826.96
+[093]  460- 475 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 31.58/ 55.04 | chg= 39.01 | grad= 7.30 | edge=0.67 | anchor=826.96
+[094]  465- 480 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 17.44/ 44.04 | chg= 24.87 | grad= 7.30 | edge=0.47 | anchor=826.96
+[095]  470- 485 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.7) | nonfloor=  우유( 11.7) | anch_ofs= 11.08/ 13.40 | chg= 18.51 | grad= 2.86 | edge=0.13 | anchor=826.96
+[096]  475- 490 | final=   물 | state=LIQUID_HOLD | model=  커피( 11.2) | nonfloor=  커피( 11.2) | anch_ofs= 10.99/ 11.16 | chg= 18.42 | grad= 0.12 | edge=0.00 | anchor=826.96
+[097]  480- 495 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 11.03/ 11.28 | chg= 18.46 | grad= 0.16 | edge=0.00 | anchor=826.96
+[098]  485- 500 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs= 11.28/ 12.24 | chg= 18.72 | grad= 0.72 | edge=0.00 | anchor=826.96
+[099]  490- 505 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.8) | nonfloor=  우유( 10.8) | anch_ofs= 14.83/ 33.80 | chg= 22.26 | grad= 8.26 | edge=0.33 | anchor=826.96
+[100]  495- 510 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 29.78/ 65.60 | chg= 37.22 | grad= 8.54 | edge=0.67 | anchor=826.96
+[101]  500- 515 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.1) | nonfloor=  망고( 11.1) | anch_ofs= 48.18/ 67.28 | chg= 55.62 | grad= 8.54 | edge=0.73 | anchor=826.96
+[102]  505- 520 | final=   물 | state=LIQUID_HOLD | model=  망고( 11.3) | nonfloor=  망고( 11.3) | anch_ofs= 63.05/ 67.28 | chg= 70.49 | grad= 8.54 | edge=0.40 | anchor=826.96
+[103]  510- 525 | final=   물 | state=LIQUID_HOLD | model=  커피( 10.8) | nonfloor=  커피( 10.8) | anch_ofs= 66.29/ 67.28 | chg= 73.73 | grad= 0.84 | edge=0.07 | anchor=826.96
+[104]  515- 530 | final=   물 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 65.66/ 66.44 | chg= 73.09 | grad= 0.24 | edge=0.00 | anchor=826.96
+[105]  520- 535 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.0) | nonfloor=  우유( 11.0) | anch_ofs= 65.47/ 66.08 | chg= 72.90 | grad= 0.24 | edge=0.00 | anchor=826.96
+[106]  525- 540 | final=   물 | state=LIQUID_HOLD | model=  커피( 11.1) | nonfloor=  커피( 11.1) | anch_ofs= 63.69/ 66.08 | chg= 71.13 | grad= 7.12 | edge=0.27 | anchor=826.96
+[107]  530- 545 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 52.45/ 66.08 | chg= 59.89 | grad= 7.62 | edge=0.60 | anchor=826.96
+[108]  535- 550 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 37.72/ 66.04 | chg= 45.15 | grad= 7.62 | edge=0.60 | anchor=826.96
+[109]  540- 555 | final=   물 | state=LIQUID_HOLD | model=  수박( 11.1) | nonfloor=  수박( 11.1) | anch_ofs= 24.98/ 43.20 | chg= 32.42 | grad= 7.62 | edge=0.33 | anchor=826.96
+[110]  545- 560 | final=   물 | state=LIQUID_HOLD | model=  우유( 11.2) | nonfloor=  우유( 11.2) | anch_ofs= 21.97/ 22.44 | chg= 29.41 | grad= 0.66 | edge=0.00 | anchor=826.96
+[111]  550- 565 | final=   물 | state=LIQUID_HOLD | model=  커피( 11.3) | nonfloor=  커피( 11.3) | anch_ofs= 21.99/ 22.44 | chg= 29.42 | grad= 0.58 | edge=0.00 | anchor=826.96
+[112]  555- 570 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.8) | nonfloor=  기름( 10.8) | anch_ofs= 21.10/ 22.44 | chg= 28.53 | grad= 0.58 | edge=0.00 | anchor=826.96
+[113]  560- 575 | final=   물 | state=LIQUID_HOLD | model=  기름( 10.9) | nonfloor=  기름( 10.9) | anch_ofs= 20.04/ 22.44 | chg= 27.47 | grad= 0.58 | edge=0.00 | anchor=826.96
+[114]  565- 580 | final=   물 | state=LIQUID_HOLD | model=  우유( 10.9) | nonfloor=  우유( 10.9) | anch_ofs= 19.15/ 19.96 | chg= 26.58 | grad= 0.48 | edge=0.00 | anchor=826.96
+[115]  570- 585 | final=   물 | state=LIQUID_HOLD | model=  기름( 11.0) | nonfloor=  기름( 11.0) | anch_ofs= 19.01/ 19.20 | chg= 26.44 | grad= 0.12 | edge=0.00 | anchor=826.96

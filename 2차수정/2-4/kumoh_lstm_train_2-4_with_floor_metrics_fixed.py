@@ -1,0 +1,519 @@
+import numpy as np
+import os
+import glob
+import csv
+import pickle
+import random
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Conv1D, BatchNormalization, Dropout, MaxPooling1D, Bidirectional, LSTM, Dense
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
+
+DATA_DIR = r"C:\Users\MASL\Desktop\ir data(get)\260325주 학습"
+SAVE_DIR = "./kumoh_lstm_model_save"
+os.makedirs(SAVE_DIR, exist_ok=True)
+
+WINDOW_SIZE = 15
+CHANGE_THRESHOLD = 5.5
+LOW_CHANGE_THRESHOLD = 4.5
+PLATEAU_MEAN_THRESHOLD = 7.0
+PLATEAU_MEDIAN_THRESHOLD = 6.0
+SIGN_CONSISTENCY_THRESHOLD = 0.88
+NOISE_RATIO_THRESHOLD = 0.82
+SPIKE_RATIO_THRESHOLD = 2.20
+SMOOTH_K = 5
+RANDOM_SEED = 42
+AUG_PER_WINDOW = 2
+
+LIQUIDS = ['바닥', '물', '말차', '커피', '콜라', '토마토', '우유', '망고', '기름', '수박']
+LIQUID_ALIASES = {
+    'water': '물', 'coffee': '커피', 'cola': '콜라', 'milk': '우유',
+    'mango': '망고', 'oil': '기름', 'matcha': '말차', 'tomato': '토마토', 'watermelon': '수박',
+    '물': '물', '커피': '커피', '콜라': '콜라', '우유': '우유', '망고': '망고', '기름': '기름',
+    '말차': '말차', '토마토': '토마토', '수박': '수박'
+}
+FLOOR_KEYWORDS = {
+    '검대': ['검대'], '회대': ['회대'],
+    '황대': ['황대'],
+    '207회바': ['greyfloor', '회색바닥', '207회바'],
+    '흰책상': ['white', '하양', '흰', 'whitedesk', '흰책상'],
+    '나타': ['나타'], '회타': ['회타'],
+    '나무': ['나무', 'wood'], '그마': ['그마', 'greymarble'],
+}
+REVERSE_DIRECTION_FLOORS = {'검대'}
+FLOOR_FILE_MARKERS = ['바닥', 'base', 'floor', 'empty']
+
+random.seed(RANDOM_SEED)
+np.random.seed(RANDOM_SEED)
+tf.random.set_seed(RANDOM_SEED)
+
+plt.rcParams['font.family'] = 'Malgun Gothic'
+plt.rcParams['axes.unicode_minus'] = False
+
+
+def normalized_text(text: str) -> str:
+    return str(text).lower().strip()
+
+
+def detect_liquid_from_filename(filename: str):
+    lower = normalized_text(filename)
+    for key, kor in LIQUID_ALIASES.items():
+        if key in lower:
+            return kor
+    for kor in LIQUIDS:
+        if kor != '바닥' and kor in filename:
+            return kor
+    return None
+
+
+def is_floor_file(filename: str) -> bool:
+    lower = normalized_text(filename)
+    return any(marker in lower for marker in FLOOR_FILE_MARKERS)
+
+
+def to_float(x):
+    try:
+        return float(str(x).strip())
+    except Exception:
+        return None
+
+
+def smooth_signal(x, k=SMOOTH_K):
+    if len(x) == 0:
+        return x
+    kernel = np.ones(k, dtype=np.float32) / float(k)
+    return np.convolve(x, kernel, mode='same')
+
+
+def remove_spikes(signal, k=3.0, local=5):
+    sig = np.array(signal, dtype=np.float32).copy()
+    if len(sig) < 3:
+        return sig
+    for i in range(1, len(sig) - 1):
+        left = max(0, i - local)
+        right = min(len(sig), i + local + 1)
+        local_med = float(np.median(sig[left:right]))
+        local_std = float(np.std(sig[left:right])) + 1e-6
+        if abs(float(sig[i]) - local_med) > k * local_std and abs(float(sig[i]) - float(sig[i-1])) > 1.2 * local_std and abs(float(sig[i]) - float(sig[i+1])) > 1.2 * local_std:
+            sig[i] = np.float32(0.5 * (sig[i - 1] + sig[i + 1]))
+    return sig
+
+
+def compute_noise_metrics(diff_w, smooth_w):
+    mean_abs_diff = float(np.mean(np.abs(diff_w))) + 1e-6
+    noise_ratio = float(np.std(diff_w) / mean_abs_diff)
+    spike_ratio = float((np.max(smooth_w) - np.min(smooth_w)) / mean_abs_diff)
+    return noise_ratio, spike_ratio
+
+
+def read_csv_recalc_change(fp):
+    encodings = ['utf-8-sig', 'utf-8', 'cp949', 'euc-kr']
+
+    def parse_new_format(lines):
+        baseline_values = []
+        currents = []
+        row_bases = []
+
+        reader = csv.DictReader(lines)
+        fields = [str(name).strip() for name in (reader.fieldnames or [])]
+        if 'record_type' not in fields:
+            return None, None, None
+
+        for row in reader:
+            record_type = str(row.get('record_type', '')).strip().lower()
+            baseline_raw = to_float(row.get('baseline_raw', ''))
+            base_raw = to_float(row.get('base_raw', ''))
+            current_raw = to_float(row.get('current_raw', ''))
+
+            if record_type == 'baseline':
+                if baseline_raw is not None:
+                    baseline_values.append(baseline_raw)
+                elif base_raw is not None:
+                    baseline_values.append(base_raw)
+                continue
+
+            if record_type == 'data' and current_raw is not None:
+                currents.append(current_raw)
+                if base_raw is not None:
+                    row_bases.append(base_raw)
+
+        if len(currents) < WINDOW_SIZE:
+            return None, None, None
+
+        if baseline_values:
+            base = float(np.mean(baseline_values))
+        else:
+            valid_row_bases = [b for b in row_bases if b is not None]
+            if not valid_row_bases:
+                return None, None, None
+            base = float(np.mean(valid_row_bases))
+
+        currents = np.array(currents, dtype=np.float32)
+        changes = np.abs(currents - base).astype(np.float32)
+        return base, currents, changes
+
+    def parse_old_format(lines):
+        baseline_values = []
+        currents = []
+        row_bases = []
+        final_base = None
+
+        for raw_line in lines:
+            line = str(raw_line).strip()
+            if not line:
+                continue
+
+            parts = [p.strip() for p in line.split(',')]
+            if not parts:
+                continue
+
+            if parts[0].startswith('Collecting baseline'):
+                if len(parts) >= 3 and parts[1] == 'RawAvg':
+                    v = to_float(parts[2])
+                    if v is not None:
+                        baseline_values.append(v)
+                continue
+
+            if len(parts) >= 5 and parts[:4] == ['Final', 'Base', 'Raw', 'Average']:
+                v = to_float(parts[4])
+                if v is not None:
+                    final_base = v
+                continue
+
+            if parts[0] == 'Time':
+                base_raw = None
+                current_raw = None
+
+                for i in range(len(parts) - 1):
+                    key = parts[i]
+                    val = parts[i + 1]
+
+                    if key == 'BaseRaw':
+                        base_raw = to_float(val)
+                    elif key == 'CurrentRaw':
+                        current_raw = to_float(val)
+
+                if current_raw is not None:
+                    currents.append(current_raw)
+                if base_raw is not None:
+                    row_bases.append(base_raw)
+
+        if len(currents) < WINDOW_SIZE:
+            return None, None, None
+
+        if final_base is not None:
+            base = float(final_base)
+        elif baseline_values:
+            base = float(np.mean(baseline_values))
+        else:
+            valid_row_bases = [b for b in row_bases if b is not None]
+            if not valid_row_bases:
+                return None, None, None
+            base = float(np.mean(valid_row_bases))
+
+        currents = np.array(currents, dtype=np.float32)
+        changes = np.abs(currents - base).astype(np.float32)
+        return base, currents, changes
+
+    for enc in encodings:
+        try:
+            with open(fp, 'r', encoding=enc, errors='ignore', newline='') as f:
+                lines = f.readlines()
+
+            base, currents, changes = parse_new_format(lines)
+            if base is not None:
+                return base, currents, changes
+
+            base, currents, changes = parse_old_format(lines)
+            if base is not None:
+                return base, currents, changes
+
+        except Exception:
+            continue
+
+    return None, None, None
+
+
+def get_floor_ref_params(floor_type):
+    if floor_type in {'나타', '회타'}:
+        return 0.020, 0.65, 5.0, 0.68, 1.85
+    if floor_type == '황대':
+        return 0.028, 0.75, 6.0, 0.82, 2.20
+    return 0.026, 0.75, 6.0, 0.78, 2.05
+
+
+def build_recent_floor_reference(signal, baseline, floor_type):
+    alpha, ref_grad, ref_band, _, _ = get_floor_ref_params(floor_type)
+    sig = smooth_signal(remove_spikes(signal))
+    grad = np.gradient(sig)
+    ref = np.empty_like(sig)
+    ref[0] = baseline
+    for i in range(1, len(sig)):
+        stable_grad = abs(grad[i]) < ref_grad
+        close_to_ref = abs(sig[i] - ref[i - 1]) < ref_band
+        if stable_grad and close_to_ref:
+            ref[i] = (1.0 - alpha) * ref[i - 1] + alpha * sig[i]
+        else:
+            ref[i] = ref[i - 1]
+    return sig, ref
+
+
+def make_feature_window(signal, start, base, floor_type):
+    sig = signal[start:start + WINDOW_SIZE]
+    norm = (sig - sig.mean()) / (sig.std() + 1e-8)
+    d1 = np.diff(norm, prepend=norm[0])
+    d1 = np.convolve(d1, np.ones(3) / 3, mode='same')
+    d2 = np.diff(d1, prepend=d1[0])
+
+    base_eff = base if len(signal) < 20 else 0.7 * base + 0.3 * np.mean(signal[:20])
+    ctx_start = max(0, start - 5)
+    ctx_end = min(len(signal), start + WINDOW_SIZE + 5)
+    ctx_mean = np.mean(signal[ctx_start:ctx_end])
+    direction_raw = base_eff - ctx_mean if floor_type in REVERSE_DIRECTION_FLOORS else ctx_mean - base_eff
+    direction = np.clip(direction_raw / 300.0, -1.0, 1.0)
+    direction_ch = np.full(WINDOW_SIZE, direction)
+    return np.stack([norm, d1, d2, direction_ch])
+
+
+def create_window_with_label(signal, changes, floor_ref, start, base, floor_type, liquid):
+    if start + WINDOW_SIZE > len(signal):
+        return None, None
+
+    sig = signal[start:start + WINDOW_SIZE]
+    chg = changes[start:start + WINDOW_SIZE]
+    ref_w = floor_ref[start:start + WINDOW_SIZE]
+    diff_w = sig - ref_w
+
+    window = make_feature_window(signal, start, base, floor_type)
+
+    max_change = float(np.max(chg))
+    mean_floor_diff = float(np.mean(np.abs(diff_w)))
+    median_floor_diff = float(np.abs(np.median(diff_w)))
+    sign_consistency = float(max(np.mean(diff_w >= 0), np.mean(diff_w <= 0)))
+    noise_ratio, spike_ratio = compute_noise_metrics(diff_w, sig)
+    _, _, _, floor_noise_th, floor_spike_th = get_floor_ref_params(floor_type)
+
+    strong_liquid = max_change >= CHANGE_THRESHOLD
+    plateau_liquid = (
+        max_change >= LOW_CHANGE_THRESHOLD and
+        mean_floor_diff >= PLATEAU_MEAN_THRESHOLD and
+        median_floor_diff >= PLATEAU_MEDIAN_THRESHOLD and
+        sign_consistency >= SIGN_CONSISTENCY_THRESHOLD and
+        noise_ratio <= min(NOISE_RATIO_THRESHOLD, floor_noise_th) and
+        spike_ratio <= min(SPIKE_RATIO_THRESHOLD, floor_spike_th)
+    )
+    liquid_flag = strong_liquid or plateau_liquid
+    label = liquid if liquid_flag else '바닥'
+    return window, label
+
+
+def detect_floor_type(filename):
+    lower = normalized_text(filename)
+    for floor, keywords in FLOOR_KEYWORDS.items():
+        if any(kw in lower for kw in keywords):
+            return floor
+    return None
+
+
+def save_dataset_manifest(meta, save_dir, floor_type):
+    path = os.path.join(save_dir, f'{floor_type}_train_manifest.csv')
+    with open(path, 'w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=list(meta[0].keys()))
+        writer.writeheader()
+        writer.writerows(meta)
+    return path
+
+
+def save_confusion_matrix(y_true, y_pred, labels, save_dir, floor_type):
+    cm = confusion_matrix(y_true, y_pred, labels=np.arange(len(labels)))
+    fig, ax = plt.subplots(figsize=(8, 8))
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+    disp.plot(ax=ax, cmap='Blues', colorbar=False, xticks_rotation=45)
+    plt.tight_layout()
+    out = os.path.join(save_dir, f'{floor_type}_confusion_matrix.png')
+    plt.savefig(out, dpi=180, bbox_inches='tight')
+    plt.close(fig)
+    return out
+
+
+def build_dataset_for_floor(file_list, floor_type):
+    X_all, y_all, meta = [], [], []
+    present_classes = set(['바닥'])
+
+    for fp in sorted(file_list):
+        liquid = detect_liquid_from_filename(os.path.basename(fp))
+        floor_file = is_floor_file(os.path.basename(fp)) and liquid is None
+
+        if (not floor_file) and (not liquid):
+            continue
+
+        base, signal, changes = read_csv_recalc_change(fp)
+        if base is None:
+            print(f'[SKIP] 읽기 실패: {os.path.basename(fp)}')
+            continue
+
+        smooth_sig, floor_ref = build_recent_floor_reference(signal, base, floor_type)
+        max_start = len(signal) - WINDOW_SIZE
+        if max_start <= 0:
+            continue
+        step = max(1, max_start // 25)
+
+        if floor_file:
+            present_classes.add('바닥')
+        else:
+            present_classes.add(liquid)
+
+        for start in range(0, max_start + 1, step):
+            chg_w = changes[start:start + WINDOW_SIZE]
+            if len(chg_w) < WINDOW_SIZE:
+                continue
+
+            if floor_file:
+                win = make_feature_window(smooth_sig, start, base, floor_type)
+                label = '바닥'
+                seg_type = 'floor_file'
+            else:
+                win, label = create_window_with_label(smooth_sig, changes, floor_ref, start, base, floor_type, liquid)
+                if win is None:
+                    continue
+                seg_type = 'liquid_file'
+
+            for aug_idx in range(AUG_PER_WINDOW + 1):
+                if aug_idx == 0:
+                    aug = win.copy()
+                else:
+                    aug = win + np.random.normal(0, random.uniform(0.01, 0.04), win.shape)
+                    aug[:3] *= random.uniform(0.95, 1.05)
+                X_all.append(aug)
+                y_all.append(label)
+                meta.append({
+                    'floor': floor_type,
+                    'source_file': os.path.basename(fp),
+                    'segment_type': seg_type,
+                    'start_idx': start,
+                    'end_idx': start + WINDOW_SIZE - 1,
+                    'label': label,
+                    'max_change': float(np.max(chg_w)),
+                    'mean_change': float(np.mean(chg_w)),
+                    'augmented': 0 if aug_idx == 0 else 1,
+                })
+
+    return X_all, y_all, meta, sorted(present_classes)
+
+
+def train_models(data_dir=DATA_DIR, save_dir=SAVE_DIR):
+    floor_files = {f: [] for f in FLOOR_KEYWORDS}
+    for fp in glob.glob(os.path.join(data_dir, '*.csv')):
+        name = os.path.basename(fp)
+        floor = detect_floor_type(name)
+        if floor:
+            floor_files[floor].append(fp)
+
+    for floor, file_list in floor_files.items():
+        if not file_list:
+            continue
+
+        X_all, y_all, meta, present_classes = build_dataset_for_floor(file_list, floor)
+        if len(X_all) == 0:
+            print(f'[SKIP] {floor}: 학습 데이터가 없습니다.')
+            continue
+
+        encoder = LabelEncoder().fit(present_classes)
+        with open(os.path.join(save_dir, f'encoder_{floor}.pkl'), 'wb') as f:
+            pickle.dump(encoder, f)
+        with open(os.path.join(save_dir, 'encoder.pkl'), 'wb') as f:
+            pickle.dump(encoder, f)
+
+        X = np.array(X_all, dtype=np.float32).transpose(0, 2, 1)
+        y = encoder.transform(y_all)
+        y_cat = tf.keras.utils.to_categorical(y, num_classes=len(encoder.classes_))
+
+        manifest_path = save_dataset_manifest(meta, save_dir, floor)
+        print(f'[INFO] {floor} manifest 저장: {manifest_path}')
+        print(f'[INFO] {floor} 사용 클래스: {list(encoder.classes_)}')
+
+        unique, counts = np.unique(y, return_counts=True)
+        print('[INFO] 클래스별 샘플 수:', {encoder.classes_[i]: int(c) for i, c in zip(unique, counts)})
+
+        stratify_y = y if np.min(counts) >= 2 else None
+        X_train, X_val, y_train, y_val = train_test_split(
+            X, y_cat, test_size=0.2, random_state=RANDOM_SEED, stratify=stratify_y, shuffle=True
+        )
+
+        y_train_int = np.argmax(y_train, axis=1)
+        classes_present = np.unique(y_train_int)
+        class_weights = compute_class_weight(class_weight='balanced', classes=classes_present, y=y_train_int)
+        class_weight_dict = {int(c): float(w) for c, w in zip(classes_present, class_weights)}
+
+        inp = Input(shape=(WINDOW_SIZE, 4))
+        x = Conv1D(32, 3, padding='same', activation='relu')(inp)
+        x = BatchNormalization()(x)
+        x = MaxPooling1D(2)(x)
+        x = Dropout(0.2)(x)
+        x = Bidirectional(LSTM(64, return_sequences=False))(x)
+        x = Dropout(0.3)(x)
+        out = Dense(len(encoder.classes_), activation='softmax')(x)
+        model = Model(inp, out)
+        model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+        save_path = os.path.join(save_dir, f'model_{floor}.keras')
+        callbacks = [
+            EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True, verbose=1),
+            ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=4, verbose=1),
+            ModelCheckpoint(save_path, monitor='val_loss', save_best_only=True, verbose=1)
+        ]
+
+        print(f'[TRAIN] 바닥={floor} | 파일수={len(file_list)} | 샘플수={len(X)}')
+        history = model.fit(
+            X_train, y_train,
+            validation_data=(X_val, y_val),
+            epochs=60,
+            batch_size=32,
+            callbacks=callbacks,
+            class_weight=class_weight_dict,
+            verbose=1
+        )
+
+        val_pred = model.predict(X_val, verbose=0)
+        y_true = np.argmax(y_val, axis=1)
+        y_pred = np.argmax(val_pred, axis=1)
+        all_label_ids = np.arange(len(encoder.classes_))
+
+        cm_path = save_confusion_matrix(y_true, y_pred, list(encoder.classes_), save_dir, floor)
+        report_path = os.path.join(save_dir, f'{floor}_classification_report.txt')
+        with open(report_path, 'w', encoding='utf-8-sig') as f:
+            f.write(classification_report(
+                y_true,
+                y_pred,
+                labels=all_label_ids,
+                target_names=list(encoder.classes_),
+                digits=4,
+                zero_division=0,
+            ))
+
+        hist_path = os.path.join(save_dir, f'{floor}_history.csv')
+        with open(hist_path, 'w', encoding='utf-8-sig', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['epoch', 'accuracy', 'loss', 'val_accuracy', 'val_loss'])
+            for i in range(len(history.history['loss'])):
+                writer.writerow([
+                    i + 1,
+                    history.history['accuracy'][i],
+                    history.history['loss'][i],
+                    history.history['val_accuracy'][i],
+                    history.history['val_loss'][i],
+                ])
+
+        print(f'[SAVE] 모델: {save_path}')
+        print(f'[SAVE] 컨퓨전매트릭스: {cm_path}')
+        print(f'[SAVE] 리포트: {report_path}')
+        print(f'[SAVE] 히스토리: {hist_path}')
+
+
+if __name__ == '__main__':
+    train_models()

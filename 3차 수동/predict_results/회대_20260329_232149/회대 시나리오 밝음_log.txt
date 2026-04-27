@@ -1,0 +1,124 @@
+[CSV] C:\Users\MASL\Desktop\ir data(get)\시나리오\회대 시나리오 밝음.csv
+[결과 폴더] C:\Users\MASL\Desktop\코드개선\3차 수동\predict_results\회대_20260329_232149
+[바닥] 회대
+[baseline] 819.522
+전체 window 수: 115
+바닥: 7개 (6.1%)
+액체: 108개 (93.9%)
+
+[상세 window]
+[001]    0-  15 | final=  바닥 | state=      FLOOR | pL= 90.5 | pF=  9.5 | anch_ofs= 33.01/327.80 | chg= 33.01 | grad=163.90 | edge=0.20 | anchor=819.52
+[002]    5-  20 | final=  바닥 | state=      FLOOR | pL= 60.4 | pF= 39.6 | anch_ofs=  0.74/  2.64 | chg=  0.74 | grad= 0.60 | edge=0.00 | anchor=819.52
+[003]   10-  25 | final=  바닥 | state=      FLOOR | pL= 67.1 | pF= 32.9 | anch_ofs=  2.10/  5.44 | chg=  2.10 | grad= 0.62 | edge=0.00 | anchor=819.52
+[004]   15-  30 | final=  바닥 | state=      FLOOR | pL= 77.1 | pF= 22.9 | anch_ofs=  3.97/  6.08 | chg=  3.97 | grad= 0.62 | edge=0.00 | anchor=819.52
+[005]   20-  35 | final=  바닥 | state=      FLOOR | pL= 81.8 | pF= 18.2 | anch_ofs=  5.54/  6.40 | chg=  5.54 | grad= 0.62 | edge=0.00 | anchor=819.52
+[006]   25-  40 | final=  바닥 | state=      FLOOR | pL= 67.0 | pF= 33.0 | anch_ofs=  6.31/  7.16 | chg=  6.31 | grad= 0.44 | edge=0.00 | anchor=819.52
+[007]   30-  45 | final=  바닥 | state=      FLOOR | pL= 80.6 | pF= 19.4 | anch_ofs=  6.03/  7.36 | chg=  6.03 | grad= 6.76 | edge=0.27 | anchor=819.52
+[008]   35-  50 | final=  액체 | state=LIQUID_HOLD | pL= 79.4 | pF= 20.6 | anch_ofs= 12.79/ 38.40 | chg= 12.99 | grad= 7.86 | edge=0.60 | anchor=822.56
+[009]   40-  55 | final=  액체 | state=LIQUID_HOLD | pL= 71.8 | pF= 28.2 | anch_ofs= 24.88/ 40.72 | chg= 23.06 | grad= 7.86 | edge=0.60 | anchor=822.56
+[010]   45-  60 | final=  액체 | state=LIQUID_HOLD | pL= 61.7 | pF= 38.3 | anch_ofs= 37.21/ 41.80 | chg= 34.17 | grad= 7.68 | edge=0.33 | anchor=822.56
+[011]   50-  65 | final=  액체 | state=LIQUID_HOLD | pL= 69.3 | pF= 30.7 | anch_ofs= 41.09/ 41.96 | chg= 38.06 | grad= 0.42 | edge=0.00 | anchor=822.56
+[012]   55-  70 | final=  액체 | state=LIQUID_HOLD | pL= 65.8 | pF= 34.2 | anch_ofs= 41.83/ 42.52 | chg= 38.79 | grad= 0.84 | edge=0.00 | anchor=822.56
+[013]   60-  75 | final=  액체 | state=LIQUID_HOLD | pL= 61.5 | pF= 38.5 | anch_ofs= 40.00/ 42.52 | chg= 36.96 | grad= 1.98 | edge=0.40 | anchor=822.56
+[014]   65-  80 | final=  액체 | state=LIQUID_HOLD | pL= 72.7 | pF= 27.3 | anch_ofs= 35.48/ 42.52 | chg= 32.44 | grad= 1.98 | edge=0.60 | anchor=822.56
+[015]   70-  85 | final=  액체 | state=LIQUID_HOLD | pL= 82.3 | pF= 17.7 | anch_ofs= 30.11/ 39.92 | chg= 27.07 | grad= 1.98 | edge=0.53 | anchor=822.56
+[016]   75-  90 | final=  액체 | state=LIQUID_HOLD | pL= 88.8 | pF= 11.2 | anch_ofs= 26.98/ 30.52 | chg= 23.94 | grad= 1.36 | edge=0.20 | anchor=822.56
+[017]   80-  95 | final=  액체 | state=LIQUID_HOLD | pL= 54.3 | pF= 45.7 | anch_ofs= 24.23/ 26.88 | chg= 21.19 | grad= 6.16 | edge=0.33 | anchor=822.56
+[018]   85- 100 | final=  액체 | state=LIQUID_HOLD | pL= 66.5 | pF= 33.5 | anch_ofs= 18.91/ 26.88 | chg= 17.50 | grad= 7.44 | edge=0.67 | anchor=822.56
+[019]   90- 105 | final=  액체 | state=LIQUID_HOLD | pL= 78.7 | pF= 21.3 | anch_ofs= 16.06/ 25.64 | chg= 16.67 | grad= 7.44 | edge=0.67 | anchor=822.56
+[020]   95- 110 | final=  액체 | state=LIQUID_HOLD | pL= 88.4 | pF= 11.6 | anch_ofs= 14.83/ 18.56 | chg= 17.46 | grad= 7.64 | edge=0.33 | anchor=822.56
+[021]  100- 115 | final=  액체 | state=LIQUID_HOLD | pL= 73.7 | pF= 26.3 | anch_ofs= 16.05/ 18.56 | chg= 19.09 | grad= 0.62 | edge=0.00 | anchor=822.56
+[022]  105- 120 | final=  액체 | state=LIQUID_HOLD | pL= 70.4 | pF= 29.6 | anch_ofs= 13.99/ 17.32 | chg= 17.02 | grad= 0.62 | edge=0.00 | anchor=822.56
+[023]  110- 125 | final=  액체 | state=LIQUID_HOLD | pL= 65.8 | pF= 34.2 | anch_ofs= 12.49/ 14.56 | chg= 15.53 | grad= 0.48 | edge=0.00 | anchor=822.56
+[024]  115- 130 | final=  액체 | state=LIQUID_HOLD | pL= 68.1 | pF= 31.9 | anch_ofs= 12.29/ 13.28 | chg= 15.33 | grad= 0.42 | edge=0.00 | anchor=822.56
+[025]  120- 135 | final=  액체 | state=LIQUID_HOLD | pL= 73.1 | pF= 26.9 | anch_ofs= 12.95/ 14.40 | chg= 15.98 | grad= 0.42 | edge=0.00 | anchor=822.56
+[026]  125- 140 | final=  액체 | state=LIQUID_HOLD | pL= 73.6 | pF= 26.4 | anch_ofs= 13.94/ 14.92 | chg= 16.97 | grad= 0.30 | edge=0.00 | anchor=822.56
+[027]  130- 145 | final=  액체 | state=LIQUID_HOLD | pL= 61.7 | pF= 38.3 | anch_ofs= 14.84/ 17.52 | chg= 17.87 | grad= 1.32 | edge=0.13 | anchor=822.56
+[028]  135- 150 | final=  액체 | state=LIQUID_HOLD | pL= 61.4 | pF= 38.6 | anch_ofs= 18.47/ 29.68 | chg= 21.50 | grad= 2.82 | edge=0.47 | anchor=822.56
+[029]  140- 155 | final=  액체 | state=LIQUID_HOLD | pL= 74.0 | pF= 26.0 | anch_ofs= 24.16/ 32.16 | chg= 27.20 | grad= 2.82 | edge=0.53 | anchor=822.56
+[030]  145- 160 | final=  액체 | state=LIQUID_HOLD | pL= 83.3 | pF= 16.7 | anch_ofs= 29.50/ 32.16 | chg= 32.53 | grad= 2.82 | edge=0.40 | anchor=822.56
+[031]  150- 165 | final=  액체 | state=LIQUID_HOLD | pL= 82.6 | pF= 17.4 | anch_ofs= 31.26/ 32.16 | chg= 34.30 | grad= 0.76 | edge=0.00 | anchor=822.56
+[032]  155- 170 | final=  액체 | state=LIQUID_HOLD | pL= 72.2 | pF= 27.8 | anch_ofs= 30.22/ 32.12 | chg= 33.25 | grad= 0.50 | edge=0.00 | anchor=822.56
+[033]  160- 175 | final=  액체 | state=LIQUID_HOLD | pL= 63.8 | pF= 36.2 | anch_ofs= 29.10/ 30.96 | chg= 32.14 | grad= 0.52 | edge=0.00 | anchor=822.56
+[034]  165- 180 | final=  액체 | state=LIQUID_HOLD | pL= 56.3 | pF= 43.7 | anch_ofs= 28.77/ 29.44 | chg= 31.81 | grad= 0.24 | edge=0.00 | anchor=822.56
+[035]  170- 185 | final=  액체 | state=LIQUID_HOLD | pL= 69.2 | pF= 30.8 | anch_ofs= 29.12/ 30.04 | chg= 32.16 | grad= 0.22 | edge=0.00 | anchor=822.56
+[036]  175- 190 | final=  액체 | state=LIQUID_HOLD | pL= 68.3 | pF= 31.7 | anch_ofs= 29.87/ 31.24 | chg= 32.90 | grad= 0.24 | edge=0.00 | anchor=822.56
+[037]  180- 195 | final=  액체 | state=LIQUID_HOLD | pL= 77.1 | pF= 22.9 | anch_ofs= 30.71/ 31.84 | chg= 33.74 | grad= 0.52 | edge=0.00 | anchor=822.56
+[038]  185- 200 | final=  액체 | state=LIQUID_HOLD | pL= 80.1 | pF= 19.9 | anch_ofs= 29.24/ 31.84 | chg= 32.28 | grad= 2.88 | edge=0.33 | anchor=822.56
+[039]  190- 205 | final=  액체 | state=LIQUID_HOLD | pL= 75.6 | pF= 24.4 | anch_ofs= 23.88/ 31.84 | chg= 26.91 | grad= 2.82 | edge=0.47 | anchor=822.56
+[040]  195- 210 | final=  액체 | state=LIQUID_HOLD | pL= 68.2 | pF= 31.8 | anch_ofs= 17.16/ 30.12 | chg= 20.19 | grad= 2.82 | edge=0.60 | anchor=822.56
+[041]  200- 215 | final=  액체 | state=LIQUID_HOLD | pL= 71.0 | pF= 29.0 | anch_ofs= 11.03/ 17.36 | chg= 14.07 | grad= 2.00 | edge=0.27 | anchor=822.56
+[042]  205- 220 | final=  액체 | state=LIQUID_HOLD | pL= 70.0 | pF= 30.0 | anch_ofs=  7.94/ 12.72 | chg= 10.97 | grad= 1.06 | edge=0.13 | anchor=822.56
+[043]  210- 225 | final=  액체 | state=LIQUID_HOLD | pL= 62.4 | pF= 37.6 | anch_ofs=  5.85/  8.60 | chg=  8.89 | grad= 0.92 | edge=0.00 | anchor=822.56
+[044]  215- 230 | final=  액체 | state=LIQUID_HOLD | pL= 58.8 | pF= 41.2 | anch_ofs=  5.64/  7.16 | chg=  8.67 | grad= 0.40 | edge=0.00 | anchor=822.56
+[045]  220- 235 | final=  액체 | state=LIQUID_HOLD | pL= 67.1 | pF= 32.9 | anch_ofs=  6.75/  9.68 | chg=  9.79 | grad= 0.52 | edge=0.00 | anchor=822.56
+[046]  225- 240 | final=  액체 | state=LIQUID_HOLD | pL= 73.8 | pF= 26.2 | anch_ofs=  8.53/ 10.96 | chg= 11.57 | grad= 0.52 | edge=0.00 | anchor=822.56
+[047]  230- 245 | final=  액체 | state=LIQUID_HOLD | pL= 76.1 | pF= 23.9 | anch_ofs= 10.26/ 11.92 | chg= 13.30 | grad= 0.50 | edge=0.00 | anchor=822.56
+[048]  235- 250 | final=  액체 | state=LIQUID_HOLD | pL= 85.1 | pF= 14.9 | anch_ofs= 11.31/ 12.16 | chg= 14.35 | grad= 0.92 | edge=0.00 | anchor=822.56
+[049]  240- 255 | final=  액체 | state=LIQUID_HOLD | pL= 80.0 | pF= 20.0 | anch_ofs= 12.02/ 29.68 | chg= 13.84 | grad=13.40 | edge=0.40 | anchor=822.56
+[050]  245- 260 | final=  액체 | state=LIQUID_HOLD | pL= 78.3 | pF= 21.7 | anch_ofs= 28.34/ 71.40 | chg= 28.14 | grad=13.72 | edge=0.73 | anchor=822.56
+[051]  250- 265 | final=  액체 | state=LIQUID_HOLD | pL= 70.3 | pF= 29.7 | anch_ofs= 48.62/ 73.40 | chg= 46.40 | grad=13.72 | edge=0.67 | anchor=822.56
+[052]  255- 270 | final=  액체 | state=LIQUID_HOLD | pL= 60.9 | pF= 39.1 | anch_ofs= 69.08/ 74.24 | chg= 66.05 | grad=11.60 | edge=0.33 | anchor=822.56
+[053]  260- 275 | final=  액체 | state=LIQUID_HOLD | pL= 71.1 | pF= 28.9 | anch_ofs= 73.75/ 74.72 | chg= 70.71 | grad= 0.38 | edge=0.00 | anchor=822.56
+[054]  265- 280 | final=  액체 | state=LIQUID_HOLD | pL= 60.8 | pF= 39.2 | anch_ofs= 74.24/ 74.72 | chg= 71.20 | grad= 0.56 | edge=0.00 | anchor=822.56
+[055]  270- 285 | final=  액체 | state=LIQUID_HOLD | pL= 67.3 | pF= 32.7 | anch_ofs= 73.37/ 74.72 | chg= 70.34 | grad= 0.72 | edge=0.00 | anchor=822.56
+[056]  275- 290 | final=  액체 | state=LIQUID_HOLD | pL= 64.4 | pF= 35.6 | anch_ofs= 71.16/ 74.72 | chg= 68.13 | grad= 4.72 | edge=0.20 | anchor=822.56
+[057]  280- 295 | final=  액체 | state=LIQUID_HOLD | pL= 62.8 | pF= 37.2 | anch_ofs= 57.11/ 72.68 | chg= 54.07 | grad=12.48 | edge=0.53 | anchor=822.56
+[058]  285- 300 | final=  액체 | state=LIQUID_HOLD | pL= 75.8 | pF= 24.2 | anch_ofs= 34.40/ 70.04 | chg= 33.06 | grad=12.48 | edge=0.73 | anchor=822.56
+[059]  290- 305 | final=  액체 | state=LIQUID_HOLD | pL= 84.1 | pF= 15.9 | anch_ofs= 13.30/ 55.00 | chg= 13.99 | grad=12.48 | edge=0.53 | anchor=822.56
+[060]  295- 310 | final=  액체 | state=LIQUID_HOLD | pL= 88.1 | pF= 11.9 | anch_ofs=  4.22/  4.80 | chg=  6.93 | grad= 4.24 | edge=0.20 | anchor=822.56
+[061]  300- 315 | final=  액체 | state=LIQUID_HOLD | pL= 88.4 | pF= 11.6 | anch_ofs=  4.60/  4.80 | chg=  7.63 | grad= 0.16 | edge=0.00 | anchor=822.56
+[062]  305- 320 | final=  액체 | state=LIQUID_HOLD | pL= 75.5 | pF= 24.5 | anch_ofs=  4.32/  4.80 | chg=  7.35 | grad= 0.14 | edge=0.00 | anchor=822.56
+[063]  310- 325 | final=  액체 | state=LIQUID_HOLD | pL= 68.2 | pF= 31.8 | anch_ofs=  3.95/  4.56 | chg=  6.98 | grad= 0.24 | edge=0.00 | anchor=822.56
+[064]  315- 330 | final=  액체 | state=LIQUID_HOLD | pL= 77.4 | pF= 22.6 | anch_ofs=  3.85/  4.36 | chg=  6.89 | grad= 0.32 | edge=0.00 | anchor=822.56
+[065]  320- 335 | final=  액체 | state=LIQUID_HOLD | pL= 53.0 | pF= 47.0 | anch_ofs=  5.80/ 19.08 | chg=  8.83 | grad= 6.72 | edge=0.27 | anchor=822.56
+[066]  325- 340 | final=  액체 | state=LIQUID_HOLD | pL= 63.8 | pF= 36.2 | anch_ofs= 18.91/ 56.52 | chg= 21.95 | grad= 8.64 | edge=0.60 | anchor=822.56
+[067]  330- 345 | final=  액체 | state=LIQUID_HOLD | pL= 74.7 | pF= 25.3 | anch_ofs= 38.20/ 62.84 | chg= 41.24 | grad= 8.64 | edge=0.80 | anchor=822.56
+[068]  335- 350 | final=  액체 | state=LIQUID_HOLD | pL= 82.0 | pF= 18.0 | anch_ofs= 55.81/ 62.84 | chg= 58.85 | grad= 8.80 | edge=0.47 | anchor=822.56
+[069]  340- 355 | final=  액체 | state=LIQUID_HOLD | pL= 90.9 | pF=  9.1 | anch_ofs= 62.04/ 62.84 | chg= 65.07 | grad= 1.80 | edge=0.13 | anchor=822.56
+[070]  345- 360 | final=  액체 | state=LIQUID_HOLD | pL= 68.8 | pF= 31.2 | anch_ofs= 61.74/ 62.76 | chg= 64.77 | grad= 0.18 | edge=0.00 | anchor=822.56
+[071]  350- 365 | final=  액체 | state=LIQUID_HOLD | pL= 56.0 | pF= 44.0 | anch_ofs= 61.65/ 63.08 | chg= 64.69 | grad= 0.46 | edge=0.00 | anchor=822.56
+[072]  355- 370 | final=  액체 | state=LIQUID_HOLD | pL= 68.7 | pF= 31.3 | anch_ofs= 62.39/ 64.20 | chg= 65.43 | grad= 0.46 | edge=0.00 | anchor=822.56
+[073]  360- 375 | final=  액체 | state=LIQUID_HOLD | pL= 71.5 | pF= 28.5 | anch_ofs= 63.63/ 65.40 | chg= 66.66 | grad= 0.46 | edge=0.00 | anchor=822.56
+[074]  365- 380 | final=  액체 | state=LIQUID_HOLD | pL= 72.4 | pF= 27.6 | anch_ofs= 64.91/ 66.20 | chg= 67.95 | grad= 0.36 | edge=0.00 | anchor=822.56
+[075]  370- 385 | final=  액체 | state=LIQUID_HOLD | pL= 82.7 | pF= 17.3 | anch_ofs= 65.01/ 66.20 | chg= 68.04 | grad= 3.36 | edge=0.13 | anchor=822.56
+[076]  375- 390 | final=  액체 | state=LIQUID_HOLD | pL= 76.4 | pF= 23.6 | anch_ofs= 56.07/ 66.20 | chg= 59.10 | grad= 9.38 | edge=0.47 | anchor=822.56
+[077]  380- 395 | final=  액체 | state=LIQUID_HOLD | pL= 73.3 | pF= 26.7 | anch_ofs= 38.41/ 65.80 | chg= 41.45 | grad= 9.38 | edge=0.60 | anchor=822.56
+[078]  385- 400 | final=  액체 | state=LIQUID_HOLD | pL= 63.6 | pF= 36.4 | anch_ofs= 21.41/ 55.00 | chg= 24.45 | grad= 9.38 | edge=0.47 | anchor=822.56
+[079]  390- 405 | final=  액체 | state=LIQUID_HOLD | pL= 64.2 | pF= 35.8 | anch_ofs= 13.06/ 15.84 | chg= 16.10 | grad= 2.92 | edge=0.13 | anchor=822.56
+[080]  395- 410 | final=  액체 | state=LIQUID_HOLD | pL= 81.1 | pF= 18.9 | anch_ofs= 12.82/ 13.28 | chg= 15.85 | grad= 0.20 | edge=0.00 | anchor=822.56
+[081]  400- 415 | final=  액체 | state=LIQUID_HOLD | pL= 66.9 | pF= 33.1 | anch_ofs= 12.70/ 13.20 | chg= 15.74 | grad= 0.18 | edge=0.00 | anchor=822.56
+[082]  405- 420 | final=  액체 | state=LIQUID_HOLD | pL= 65.4 | pF= 34.6 | anch_ofs= 12.75/ 13.52 | chg= 15.79 | grad= 0.28 | edge=0.00 | anchor=822.56
+[083]  410- 425 | final=  액체 | state=LIQUID_HOLD | pL= 60.4 | pF= 39.6 | anch_ofs= 13.45/ 15.68 | chg= 16.49 | grad= 0.96 | edge=0.00 | anchor=822.56
+[084]  415- 430 | final=  액체 | state=LIQUID_HOLD | pL= 57.3 | pF= 42.7 | anch_ofs= 18.86/ 42.52 | chg= 21.90 | grad= 7.72 | edge=0.40 | anchor=822.56
+[085]  420- 435 | final=  액체 | state=LIQUID_HOLD | pL= 70.1 | pF= 29.9 | anch_ofs= 33.11/ 59.28 | chg= 36.15 | grad= 7.38 | edge=0.60 | anchor=822.56
+[086]  425- 440 | final=  액체 | state=LIQUID_HOLD | pL= 78.8 | pF= 21.2 | anch_ofs= 47.96/ 59.28 | chg= 51.00 | grad= 7.38 | edge=0.53 | anchor=822.56
+[087]  430- 445 | final=  액체 | state=LIQUID_HOLD | pL= 86.7 | pF= 13.3 | anch_ofs= 57.87/ 59.28 | chg= 60.91 | grad= 4.96 | edge=0.20 | anchor=822.56
+[088]  435- 450 | final=  액체 | state=LIQUID_HOLD | pL= 64.1 | pF= 35.9 | anch_ofs= 58.83/ 59.20 | chg= 61.86 | grad= 0.10 | edge=0.00 | anchor=822.56
+[089]  440- 455 | final=  액체 | state=LIQUID_HOLD | pL= 61.5 | pF= 38.5 | anch_ofs= 58.88/ 59.40 | chg= 61.92 | grad= 0.14 | edge=0.00 | anchor=822.56
+[090]  445- 460 | final=  액체 | state=LIQUID_HOLD | pL= 76.0 | pF= 24.0 | anch_ofs= 59.09/ 59.44 | chg= 62.13 | grad= 0.14 | edge=0.00 | anchor=822.56
+[091]  450- 465 | final=  액체 | state=LIQUID_HOLD | pL= 76.8 | pF= 23.2 | anch_ofs= 58.78/ 59.44 | chg= 61.82 | grad= 3.48 | edge=0.20 | anchor=822.56
+[092]  455- 470 | final=  액체 | state=LIQUID_HOLD | pL= 76.7 | pF= 23.3 | anch_ofs= 50.53/ 59.44 | chg= 53.57 | grad= 7.30 | edge=0.53 | anchor=822.56
+[093]  460- 475 | final=  액체 | state=LIQUID_HOLD | pL= 72.8 | pF= 27.2 | anch_ofs= 35.98/ 59.44 | chg= 39.01 | grad= 7.30 | edge=0.67 | anchor=822.56
+[094]  465- 480 | final=  액체 | state=LIQUID_HOLD | pL= 63.2 | pF= 36.8 | anch_ofs= 21.84/ 48.44 | chg= 24.87 | grad= 7.30 | edge=0.47 | anchor=822.56
+[095]  470- 485 | final=  액체 | state=LIQUID_HOLD | pL= 55.7 | pF= 44.3 | anch_ofs= 15.48/ 17.80 | chg= 18.51 | grad= 2.00 | edge=0.13 | anchor=822.56
+[096]  475- 490 | final=  액체 | state=LIQUID_HOLD | pL= 91.8 | pF=  8.2 | anch_ofs= 15.39/ 15.56 | chg= 18.42 | grad= 0.12 | edge=0.00 | anchor=822.56
+[097]  480- 495 | final=  액체 | state=LIQUID_HOLD | pL= 73.4 | pF= 26.6 | anch_ofs= 15.43/ 15.68 | chg= 18.46 | grad= 0.16 | edge=0.00 | anchor=822.56
+[098]  485- 500 | final=  액체 | state=LIQUID_HOLD | pL= 60.1 | pF= 39.9 | anch_ofs= 15.68/ 16.64 | chg= 18.72 | grad= 0.40 | edge=0.00 | anchor=822.56
+[099]  490- 505 | final=  액체 | state=LIQUID_HOLD | pL= 55.1 | pF= 44.9 | anch_ofs= 19.23/ 38.20 | chg= 22.26 | grad= 7.80 | edge=0.33 | anchor=822.56
+[100]  495- 510 | final=  액체 | state=LIQUID_HOLD | pL= 66.1 | pF= 33.9 | anch_ofs= 34.18/ 70.00 | chg= 37.22 | grad= 8.54 | edge=0.67 | anchor=822.56
+[101]  500- 515 | final=  액체 | state=LIQUID_HOLD | pL= 76.4 | pF= 23.6 | anch_ofs= 52.58/ 71.68 | chg= 55.62 | grad= 8.54 | edge=0.67 | anchor=822.56
+[102]  505- 520 | final=  액체 | state=LIQUID_HOLD | pL= 83.8 | pF= 16.2 | anch_ofs= 67.45/ 71.68 | chg= 70.49 | grad= 8.36 | edge=0.33 | anchor=822.56
+[103]  510- 525 | final=  액체 | state=LIQUID_HOLD | pL= 72.2 | pF= 27.8 | anch_ofs= 70.69/ 71.68 | chg= 73.73 | grad= 0.32 | edge=0.00 | anchor=822.56
+[104]  515- 530 | final=  액체 | state=LIQUID_HOLD | pL= 71.0 | pF= 29.0 | anch_ofs= 70.05/ 70.84 | chg= 73.09 | grad= 0.24 | edge=0.00 | anchor=822.56
+[105]  520- 535 | final=  액체 | state=LIQUID_HOLD | pL= 59.0 | pF= 41.0 | anch_ofs= 69.86/ 70.48 | chg= 72.90 | grad= 0.24 | edge=0.00 | anchor=822.56
+[106]  525- 540 | final=  액체 | state=LIQUID_HOLD | pL= 76.8 | pF= 23.2 | anch_ofs= 68.09/ 70.48 | chg= 71.13 | grad= 6.40 | edge=0.27 | anchor=822.56
+[107]  530- 545 | final=  액체 | state=LIQUID_HOLD | pL= 76.0 | pF= 24.0 | anch_ofs= 56.85/ 70.48 | chg= 59.89 | grad= 7.62 | edge=0.60 | anchor=822.56
+[108]  535- 550 | final=  액체 | state=LIQUID_HOLD | pL= 69.9 | pF= 30.1 | anch_ofs= 42.11/ 70.44 | chg= 45.15 | grad= 7.62 | edge=0.67 | anchor=822.56
+[109]  540- 555 | final=  액체 | state=LIQUID_HOLD | pL= 59.5 | pF= 40.5 | anch_ofs= 29.38/ 47.60 | chg= 32.42 | grad= 7.40 | edge=0.33 | anchor=822.56
+[110]  545- 560 | final=  액체 | state=LIQUID_HOLD | pL= 73.6 | pF= 26.4 | anch_ofs= 26.37/ 26.84 | chg= 29.41 | grad= 0.36 | edge=0.00 | anchor=822.56
+[111]  550- 565 | final=  액체 | state=LIQUID_HOLD | pL= 85.4 | pF= 14.6 | anch_ofs= 26.39/ 26.84 | chg= 29.42 | grad= 0.60 | edge=0.00 | anchor=822.56
+[112]  555- 570 | final=  액체 | state=LIQUID_HOLD | pL= 77.4 | pF= 22.6 | anch_ofs= 25.49/ 26.84 | chg= 28.53 | grad= 0.58 | edge=0.00 | anchor=822.56
+[113]  560- 575 | final=  액체 | state=LIQUID_HOLD | pL= 66.7 | pF= 33.3 | anch_ofs= 24.44/ 26.84 | chg= 27.47 | grad= 0.58 | edge=0.00 | anchor=822.56
+[114]  565- 580 | final=  액체 | state=LIQUID_HOLD | pL= 64.9 | pF= 35.1 | anch_ofs= 23.55/ 24.36 | chg= 26.58 | grad= 0.40 | edge=0.00 | anchor=822.56
+[115]  570- 585 | final=  액체 | state=LIQUID_HOLD | pL= 71.5 | pF= 28.5 | anch_ofs= 23.40/ 23.60 | chg= 26.44 | grad= 0.12 | edge=0.00 | anchor=822.56

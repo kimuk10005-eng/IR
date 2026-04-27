@@ -1,0 +1,68 @@
+﻿record_type,baseline_raw,base_raw,current_raw,change,graph,raw_data
+info,,,,,,Initial floor measurement (5s)... Keep the sensor on the empty floor.
+info,,,,,,START received
+baseline,812.4,,,,812.4,Collecting baseline... RawAvg=812.40
+baseline,812.8,,,,812.8,Collecting baseline... RawAvg=812.80
+baseline,813.2,,,,813.2,Collecting baseline... RawAvg=813.20
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,813.2,,,,813.2,Collecting baseline... RawAvg=813.20
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+baseline,812.8,,,,812.8,Collecting baseline... RawAvg=812.80
+baseline,812.8,,,,812.8,Collecting baseline... RawAvg=812.80
+baseline,813.2,,,,813.2,Collecting baseline... RawAvg=813.20
+baseline,813.6,,,,813.6,Collecting baseline... RawAvg=813.60
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,812.4,,,,812.4,Collecting baseline... RawAvg=812.40
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,813.2,,,,813.2,Collecting baseline... RawAvg=813.20
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,814.0,,,,814.0,Collecting baseline... RawAvg=814.00
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,812.8,,,,812.8,Collecting baseline... RawAvg=812.80
+baseline,812.2,,,,812.2,Collecting baseline... RawAvg=812.20
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+baseline,813.6,,,,813.6,Collecting baseline... RawAvg=813.60
+baseline,814.0,,,,814.0,Collecting baseline... RawAvg=814.00
+baseline,814.2,,,,814.2,Collecting baseline... RawAvg=814.20
+baseline,813.6,,,,813.6,Collecting baseline... RawAvg=813.60
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,812.4,,,,812.4,Collecting baseline... RawAvg=812.40
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,813.2,,,,813.2,Collecting baseline... RawAvg=813.20
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,814.0,,,,814.0,Collecting baseline... RawAvg=814.00
+baseline,814.0,,,,814.0,Collecting baseline... RawAvg=814.00
+baseline,813.6,,,,813.6,Collecting baseline... RawAvg=813.60
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+baseline,812.8,,,,812.8,Collecting baseline... RawAvg=812.80
+baseline,812.6,,,,812.6,Collecting baseline... RawAvg=812.60
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+baseline,813.4,,,,813.4,Collecting baseline... RawAvg=813.40
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.8,,,,813.8,Collecting baseline... RawAvg=813.80
+baseline,813.0,,,,813.0,Collecting baseline... RawAvg=813.00
+info,,,,,,Baseline collection complete! Starting detection.
+final_base,,813.22,,,813.22,Final Base Raw Average = 813.22
+info,,,,,,--------------------------------------------------------------------------
+data,,813.2,849.6,36.4,849.6,Time=11.3s | BaseRaw=813.2 | CurrentRaw=849.6 | Change=36.4 => Liquid
+data,,813.2,848.6,35.4,848.6,Time=11.4s | BaseRaw=813.2 | CurrentRaw=848.6 | Change=35.4 => Liquid
+data,,813.2,845.0,31.8,845.0,Time=11.5s | BaseRaw=813.2 | CurrentRaw=845.0 | Change=31.8 => Liquid
+data,,813.2,840.6,27.4,840.6,Time=11.6s | BaseRaw=813.2 | CurrentRaw=840.6 | Change=27.4 => Liquid
+data,,813.2,834.8,21.6,834.8,Time=11.7s | BaseRaw=813.2 | CurrentRaw=834.8 | Change=21.6 => Liquid
+data,,813.2,828.6,15.4,828.6,Time=11.8s | BaseRaw=813.2 | CurrentRaw=828.6 | Change=15.4 => Liquid
+data,,813.2,824.0,10.8,824.0,Time=11.9s | BaseRaw=813.2 | CurrentRaw=824.0 | Change=10.8 => Liquid
+data,,813.2,821.6,8.4,821.6,Time=12.0s | BaseRaw=813.2 | CurrentRaw=821.6 | Change=8.4 => Floor
+data,,813.2,819.6,6.4,819.6,Time=12.1s | BaseRaw=813.2 | CurrentRaw=819.6 | Change=6.4 => Floor
+data,,813.2,817.8,4.6,817.8,Time=12.2s | BaseRaw=813.2 | CurrentRaw=817.8 | Change=4.6 => Floor
+data,,813.2,817.0,3.8,817.0,Time=12.3s | BaseRaw=813.2 | CurrentRaw=817.0 | Change=3.8 => Floor
+data,,813.2,815.8,2.6,815.8,Time=12.4s | BaseRaw=813.2 | CurrentRaw=815.8 | Change=2.6 => Floor
+data,,813.2,815.6,2.4,815.6,Time=12.5s | BaseRaw=813.2 | CurrentRaw=815.6 | Change=2.4 => Floor

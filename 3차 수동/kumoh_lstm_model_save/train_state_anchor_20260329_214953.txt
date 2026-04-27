@@ -1,0 +1,69 @@
+==========================================================================================
+상태유지 실험용 학습 시작
+[DB 경로] C:\Users\MASL\Desktop\코드개선\3차 수동\3rd_수동
+[모델 저장 경로] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save
+[encoder 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\encoder.pkl
+[검색된 CSV 수] 46
+[SKIP] 검대: 파일 없음
+[LOAD] 회대 기름 밝음(1)_fall.csv | mode=manual-event | len=8->15 | base=823.34 | label=기름 | +4
+[LOAD] 회대 기름 밝음(1)_rise.csv | mode=manual-event | len=6->15 | base=823.34 | label=기름 | +4
+[LOAD] 회대 기름 어둠_fall.csv | mode=manual-event | len=11->15 | base=859.34 | label=기름 | +4
+[LOAD] 회대 기름 어둠_rise.csv | mode=manual-event | len=10->15 | base=859.34 | label=기름 | +4
+[LOAD] 회대 망고 밝음_fall.csv | mode=manual-event | len=7->15 | base=862.38 | label=망고 | +4
+[LOAD] 회대 망고 밝음_rise.csv | mode=manual-event | len=7->15 | base=862.38 | label=망고 | +4
+[LOAD] 회대 망고 어둠_fall.csv | mode=manual-event | len=10->15 | base=798.96 | label=망고 | +4
+[LOAD] 회대 망고 어둠_rise.csv | mode=manual-event | len=10->15 | base=798.96 | label=망고 | +4
+[LOAD] 회대 물 밝음_fall.csv | mode=manual-event | len=13->15 | base=813.22 | label=물 | +4
+[LOAD] 회대 물 밝음_rise.csv | mode=manual-event | len=12->15 | base=813.22 | label=물 | +4
+[LOAD] 회대 물 어둠_fall.csv | mode=manual-event | len=7->15 | base=867.90 | label=물 | +4
+[LOAD] 회대 물 어둠_rise.csv | mode=manual-event | len=10->15 | base=867.90 | label=물 | +4
+[LOAD] 회대 우유 밝음_fall.csv | mode=manual-event | len=11->15 | base=816.94 | label=우유 | +4
+[LOAD] 회대 우유 밝음_rise.csv | mode=manual-event | len=13->15 | base=816.94 | label=우유 | +4
+[LOAD] 회대 우유 어둠_fall.csv | mode=manual-event | len=10->15 | base=867.42 | label=우유 | +4
+[LOAD] 회대 우유 어둠_rise.csv | mode=manual-event | len=12->15 | base=867.42 | label=우유 | +4
+[LOAD] 회대 커피 밝음_fall.csv | mode=manual-event | len=8->15 | base=830.91 | label=커피 | +4
+[LOAD] 회대 커피 밝음_rise.csv | mode=manual-event | len=9->15 | base=830.91 | label=커피 | +4
+[LOAD] 회대 커피 어둠_fall.csv | mode=manual-event | len=7->15 | base=853.72 | label=커피 | +4
+[LOAD] 회대 커피 어둠_rise.csv | mode=manual-event | len=9->15 | base=853.72 | label=커피 | +4
+[LOAD] 회대 콜라 밝음_fall.csv | mode=manual-event | len=11->15 | base=828.40 | label=콜라 | +4
+[LOAD] 회대 콜라 밝음_rise.csv | mode=manual-event | len=11->15 | base=828.40 | label=콜라 | +4
+[LOAD] 회대 콜라 어둠_fall.csv | mode=manual-event | len=10->15 | base=880.40 | label=콜라 | +4
+[LOAD] 회대 콜라 어둠_rise.csv | mode=manual-event | len=8->15 | base=880.40 | label=콜라 | +4
+==========================================================================================
+[TRAIN] 바닥=회대 | 파일수=24 | 샘플수=96
+[라벨분포] {'기름': 16, '망고': 16, '물': 16, '우유': 16, '커피': 16, '콜라': 16}
+[모델 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\model_회대.keras
+[LOAD] 황대 기름 밝음_fall.csv | mode=manual-event | len=14->15 | base=815.97 | label=기름 | +4
+[LOAD] 황대 기름 밝음_rise.csv | mode=manual-event | len=12->15 | base=815.97 | label=기름 | +4
+[LOAD] 황대 기름 어둠_fall.csv | mode=manual-event | len=9->15 | base=840.33 | label=기름 | +4
+[LOAD] 황대 기름 어둠_rise.csv | mode=manual-event | len=7->15 | base=840.33 | label=기름 | +4
+[LOAD] 황대 망고 밝음_fall.csv | mode=manual-event | len=14->15 | base=805.31 | label=망고 | +4
+[LOAD] 황대 망고 밝음_rise.csv | mode=manual-event | len=12->15 | base=805.31 | label=망고 | +4
+[LOAD] 황대 망고 어둠_fall.csv | mode=manual-event | len=10->15 | base=832.20 | label=망고 | +4
+[LOAD] 황대 망고 어둠_rise.csv | mode=manual-event | len=10->15 | base=832.20 | label=망고 | +4
+[LOAD] 황대 물 밝음_fall.csv | mode=manual-event | len=11->15 | base=813.17 | label=물 | +4
+[LOAD] 황대 물 밝음_rise.csv | mode=manual-event | len=12->15 | base=813.17 | label=물 | +4
+[LOAD] 황대 물 어둠_fall.csv | mode=manual-event | len=9->15 | base=833.54 | label=물 | +4
+[LOAD] 황대 물 어둠_rise.csv | mode=manual-event | len=16->15 | base=833.54 | label=물 | +4
+[LOAD] 황대 우유 밝음_fall.csv | mode=manual-event | len=11->15 | base=819.25 | label=우유 | +4
+[LOAD] 황대 우유 밝음_rise.csv | mode=manual-event | len=11->15 | base=819.25 | label=우유 | +4
+[LOAD] 황대 우유 어둠_fall.csv | mode=manual-event | len=10->15 | base=832.27 | label=우유 | +4
+[LOAD] 황대 우유 어둠_rise.csv | mode=manual-event | len=12->15 | base=832.27 | label=우유 | +4
+[LOAD] 황대 커피 밝음_fall.csv | mode=manual-event | len=10->15 | base=787.12 | label=커피 | +4
+[LOAD] 황대 커피 밝음_rise.csv | mode=manual-event | len=10->15 | base=787.12 | label=커피 | +4
+[LOAD] 황대 커피 어둠_fall.csv | mode=manual-event | len=10->15 | base=834.66 | label=커피 | +4
+[LOAD] 황대 커피 어둠_rise.csv | mode=manual-event | len=11->15 | base=834.66 | label=커피 | +4
+[LOAD] 황대 콜라 어둠_fall.csv | mode=manual-event | len=11->15 | base=840.22 | label=콜라 | +4
+[LOAD] 황대 콜라 어둠_rise.csv | mode=manual-event | len=11->15 | base=840.22 | label=콜라 | +4
+==========================================================================================
+[TRAIN] 바닥=황대 | 파일수=22 | 샘플수=88
+[라벨분포] {'기름': 16, '망고': 16, '물': 16, '우유': 16, '커피': 16, '콜라': 8}
+[모델 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\model_황대.keras
+[SKIP] 207회바: 파일 없음
+[SKIP] 흰책상: 파일 없음
+[SKIP] 나타: 파일 없음
+[SKIP] 회타: 파일 없음
+[SKIP] 나무: 파일 없음
+==========================================================================================
+학습 완료
+[학습 로그 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\train_state_anchor_20260329_214953.txt

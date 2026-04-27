@@ -1,0 +1,17 @@
+==========================================================================================
+상태유지 실험용 학습 시작
+[DB 경로] C:\Users\MASL\Desktop\코드개선\3차 수동\trimmed_manual_split
+[모델 저장 경로] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save
+[encoder 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\encoder.pkl
+[검색된 CSV 수] 0
+[SKIP] 검대: 파일 없음
+[SKIP] 회대: 파일 없음
+[SKIP] 황대: 파일 없음
+[SKIP] 207회바: 파일 없음
+[SKIP] 흰책상: 파일 없음
+[SKIP] 나타: 파일 없음
+[SKIP] 회타: 파일 없음
+[SKIP] 나무: 파일 없음
+==========================================================================================
+학습 완료
+[학습 로그 저장] C:\Users\MASL\Desktop\코드개선\3차 수동\kumoh_lstm_model_save\train_state_anchor_20260329_214928.txt

@@ -1,0 +1,124 @@
+[CSV] C:\Users\MASL\Desktop\ir data(get)\시나리오\회대 시나리오 밝음.csv
+[결과 폴더] C:\Users\MASL\Desktop\코드개선\3차 수동\predict_results\회대_20260330_002124
+[바닥] 회대
+[baseline] 819.522
+전체 window 수: 115
+바닥: 29개 (25.2%)
+액체: 86개 (74.8%)
+
+[상세 window]
+[001]    0-  15 | final=  바닥 | seed=0 | pL= 87.1 | pF= 12.9 | chg=  0.48 | grad=163.90 | edge=0.20 | fdiff=32.98
+[002]    5-  20 | final=  바닥 | seed=0 | pL= 60.1 | pF= 39.9 | chg=  2.48 | grad= 0.60 | edge=0.00 | fdiff=0.66
+[003]   10-  25 | final=  바닥 | seed=0 | pL= 65.4 | pF= 34.6 | chg=  5.68 | grad= 0.62 | edge=0.00 | fdiff=1.84
+[004]   15-  30 | final=  바닥 | seed=0 | pL= 81.2 | pF= 18.8 | chg=  6.08 | grad= 0.62 | edge=0.00 | fdiff=3.34
+[005]   20-  35 | final=  바닥 | seed=0 | pL= 89.1 | pF= 10.9 | chg=  6.28 | grad= 0.62 | edge=0.00 | fdiff=4.37
+[006]   25-  40 | final=  바닥 | seed=0 | pL= 78.8 | pF= 21.2 | chg=  6.68 | grad= 0.32 | edge=0.00 | fdiff=4.54
+[007]   30-  45 | final=  액체 | seed=1 | pL= 87.4 | pF= 12.6 | chg=  8.68 | grad= 7.40 | edge=0.27 | fdiff=4.47
+[008]   35-  50 | final=  액체 | seed=1 | pL= 85.0 | pF= 15.0 | chg= 35.92 | grad= 7.86 | edge=0.60 | fdiff=12.93
+[009]   40-  55 | final=  액체 | seed=1 | pL= 77.8 | pF= 22.2 | chg= 37.52 | grad= 7.86 | edge=0.60 | fdiff=24.69
+[010]   45-  60 | final=  액체 | seed=1 | pL= 67.4 | pF= 32.6 | chg= 39.12 | grad= 7.86 | edge=0.33 | fdiff=36.89
+[011]   50-  65 | final=  액체 | seed=0 | pL= 74.4 | pF= 25.6 | chg= 39.12 | grad= 0.58 | edge=0.00 | fdiff=40.77
+[012]   55-  70 | final=  액체 | seed=0 | pL= 82.5 | pF= 17.5 | chg= 40.12 | grad= 1.12 | edge=0.07 | fdiff=41.51
+[013]   60-  75 | final=  액체 | seed=1 | pL= 55.7 | pF= 44.3 | chg= 40.12 | grad= 1.98 | edge=0.40 | fdiff=39.68
+[014]   65-  80 | final=  액체 | seed=1 | pL= 70.2 | pF= 29.8 | chg= 40.12 | grad= 1.98 | edge=0.67 | fdiff=35.16
+[015]   70-  85 | final=  액체 | seed=1 | pL= 84.7 | pF= 15.3 | chg= 37.32 | grad= 1.98 | edge=0.60 | fdiff=29.79
+[016]   75-  90 | final=  액체 | seed=1 | pL= 94.4 | pF=  5.6 | chg= 27.32 | grad= 1.50 | edge=0.27 | fdiff=26.66
+[017]   80-  95 | final=  액체 | seed=1 | pL= 47.2 | pF= 52.8 | chg= 23.92 | grad= 6.70 | edge=0.33 | fdiff=23.91
+[018]   85- 100 | final=  액체 | seed=1 | pL= 64.2 | pF= 35.8 | chg= 23.92 | grad= 7.44 | edge=0.67 | fdiff=18.77
+[019]   90- 105 | final=  액체 | seed=1 | pL= 82.1 | pF= 17.9 | chg= 22.72 | grad= 7.44 | edge=0.67 | fdiff=16.12
+[020]   95- 110 | final=  액체 | seed=1 | pL= 95.8 | pF=  4.2 | chg= 22.68 | grad= 7.44 | edge=0.33 | fdiff=15.11
+[021]  100- 115 | final=  액체 | seed=0 | pL= 83.2 | pF= 16.8 | chg= 22.68 | grad= 0.62 | edge=0.00 | fdiff=16.37
+[022]  105- 120 | final=  바닥 | seed=0 | pL= 81.2 | pF= 18.8 | chg= 20.48 | grad= 0.62 | edge=0.00 | fdiff=14.31
+[023]  110- 125 | final=  바닥 | seed=0 | pL= 74.7 | pF= 25.3 | chg= 17.28 | grad= 0.54 | edge=0.00 | fdiff=12.81
+[024]  115- 130 | final=  바닥 | seed=0 | pL= 67.3 | pF= 32.7 | chg= 16.48 | grad= 0.42 | edge=0.00 | fdiff=12.61
+[025]  120- 135 | final=  바닥 | seed=0 | pL= 81.8 | pF= 18.2 | chg= 17.48 | grad= 0.42 | edge=0.00 | fdiff=13.26
+[026]  125- 140 | final=  액체 | seed=0 | pL= 76.4 | pF= 23.6 | chg= 17.88 | grad= 0.30 | edge=0.00 | fdiff=14.25
+[027]  130- 145 | final=  액체 | seed=1 | pL= 76.4 | pF= 23.6 | chg= 19.48 | grad= 1.64 | edge=0.13 | fdiff=15.15
+[028]  135- 150 | final=  액체 | seed=1 | pL= 58.6 | pF= 41.4 | chg= 33.88 | grad= 2.82 | edge=0.47 | fdiff=18.79
+[029]  140- 155 | final=  액체 | seed=1 | pL= 77.4 | pF= 22.6 | chg= 35.28 | grad= 2.82 | edge=0.53 | fdiff=24.48
+[030]  145- 160 | final=  액체 | seed=1 | pL= 91.8 | pF=  8.2 | chg= 35.28 | grad= 2.82 | edge=0.40 | fdiff=29.81
+[031]  150- 165 | final=  액체 | seed=1 | pL= 87.2 | pF= 12.8 | chg= 35.28 | grad= 1.10 | edge=0.07 | fdiff=31.58
+[032]  155- 170 | final=  액체 | seed=0 | pL= 82.7 | pF= 17.3 | chg= 35.28 | grad= 0.50 | edge=0.00 | fdiff=30.53
+[033]  160- 175 | final=  바닥 | seed=0 | pL= 74.2 | pF= 25.8 | chg= 34.08 | grad= 0.50 | edge=0.00 | fdiff=29.42
+[034]  165- 180 | final=  바닥 | seed=0 | pL= 55.8 | pF= 44.2 | chg= 32.48 | grad= 0.22 | edge=0.00 | fdiff=29.09
+[035]  170- 185 | final=  바닥 | seed=0 | pL= 75.0 | pF= 25.0 | chg= 33.08 | grad= 0.22 | edge=0.00 | fdiff=29.44
+[036]  175- 190 | final=  바닥 | seed=0 | pL= 72.8 | pF= 27.2 | chg= 34.28 | grad= 0.24 | edge=0.00 | fdiff=30.19
+[037]  180- 195 | final=  액체 | seed=0 | pL= 72.8 | pF= 27.2 | chg= 35.28 | grad= 0.78 | edge=0.07 | fdiff=31.02
+[038]  185- 200 | final=  액체 | seed=1 | pL= 88.4 | pF= 11.6 | chg= 35.28 | grad= 2.82 | edge=0.40 | fdiff=29.56
+[039]  190- 205 | final=  액체 | seed=1 | pL= 85.0 | pF= 15.0 | chg= 35.28 | grad= 2.82 | edge=0.60 | fdiff=24.19
+[040]  195- 210 | final=  액체 | seed=1 | pL= 78.1 | pF= 21.9 | chg= 33.68 | grad= 2.82 | edge=0.73 | fdiff=17.48
+[041]  200- 215 | final=  액체 | seed=1 | pL= 83.4 | pF= 16.6 | chg= 19.88 | grad= 2.34 | edge=0.60 | fdiff=11.35
+[042]  205- 220 | final=  액체 | seed=1 | pL= 79.1 | pF= 20.9 | chg= 16.08 | grad= 1.06 | edge=0.40 | fdiff=8.11
+[043]  210- 225 | final=  액체 | seed=0 | pL= 71.4 | pF= 28.6 | chg= 11.48 | grad= 0.98 | edge=0.20 | fdiff=5.67
+[044]  215- 230 | final=  바닥 | seed=0 | pL= 56.9 | pF= 43.1 | chg= 10.08 | grad= 0.48 | edge=0.00 | fdiff=4.90
+[045]  220- 235 | final=  바닥 | seed=0 | pL= 68.7 | pF= 31.3 | chg= 12.68 | grad= 0.52 | edge=0.00 | fdiff=5.50
+[046]  225- 240 | final=  바닥 | seed=0 | pL= 78.5 | pF= 21.5 | chg= 14.08 | grad= 0.52 | edge=0.00 | fdiff=6.98
+[047]  230- 245 | final=  바닥 | seed=0 | pL= 82.3 | pF= 17.7 | chg= 14.88 | grad= 0.52 | edge=0.00 | fdiff=8.62
+[048]  235- 250 | final=  액체 | seed=1 | pL= 83.1 | pF= 16.9 | chg= 15.48 | grad= 1.64 | edge=0.07 | fdiff=9.67
+[049]  240- 255 | final=  액체 | seed=1 | pL= 86.2 | pF= 13.8 | chg= 27.12 | grad=13.72 | edge=0.40 | fdiff=11.03
+[050]  245- 260 | final=  액체 | seed=1 | pL= 83.7 | pF= 16.3 | chg= 68.72 | grad=13.72 | edge=0.73 | fdiff=28.45
+[051]  250- 265 | final=  액체 | seed=1 | pL= 75.8 | pF= 24.2 | chg= 70.32 | grad=13.72 | edge=0.67 | fdiff=49.83
+[052]  255- 270 | final=  액체 | seed=1 | pL= 64.1 | pF= 35.9 | chg= 71.12 | grad=12.82 | edge=0.33 | fdiff=70.73
+[053]  260- 275 | final=  액체 | seed=0 | pL= 75.4 | pF= 24.6 | chg= 71.72 | grad= 0.46 | edge=0.00 | fdiff=75.39
+[054]  265- 280 | final=  바닥 | seed=0 | pL= 58.9 | pF= 41.1 | chg= 71.72 | grad= 0.62 | edge=0.00 | fdiff=75.88
+[055]  270- 285 | final=  액체 | seed=0 | pL= 60.5 | pF= 39.5 | chg= 71.72 | grad= 0.72 | edge=0.07 | fdiff=75.02
+[056]  275- 290 | final=  액체 | seed=1 | pL= 74.3 | pF= 25.7 | chg= 71.72 | grad= 6.22 | edge=0.27 | fdiff=72.81
+[057]  280- 295 | final=  액체 | seed=1 | pL= 56.7 | pF= 43.3 | chg= 69.72 | grad=12.48 | edge=0.60 | fdiff=58.75
+[058]  285- 300 | final=  액체 | seed=1 | pL= 74.9 | pF= 25.1 | chg= 66.92 | grad=12.48 | edge=0.73 | fdiff=35.16
+[059]  290- 305 | final=  액체 | seed=1 | pL= 89.5 | pF= 10.5 | chg= 56.52 | grad=12.48 | edge=0.53 | fdiff=12.85
+[060]  295- 310 | final=  액체 | seed=1 | pL= 94.4 | pF=  5.6 | chg=  7.88 | grad= 5.66 | edge=0.20 | fdiff=2.44
+[061]  300- 315 | final=  바닥 | seed=0 | pL= 90.2 | pF=  9.8 | chg=  7.88 | grad= 0.12 | edge=0.00 | fdiff=2.29
+[062]  305- 320 | final=  바닥 | seed=0 | pL= 88.4 | pF= 11.6 | chg=  7.88 | grad= 0.14 | edge=0.00 | fdiff=1.74
+[063]  310- 325 | final=  바닥 | seed=0 | pL= 80.3 | pF= 19.7 | chg=  7.68 | grad= 0.22 | edge=0.00 | fdiff=1.19
+[064]  315- 330 | final=  바닥 | seed=0 | pL= 78.0 | pF= 22.0 | chg=  7.68 | grad= 0.26 | edge=0.00 | fdiff=0.96
+[065]  320- 335 | final=  액체 | seed=1 | pL= 50.3 | pF= 49.7 | chg= 19.88 | grad= 7.32 | edge=0.27 | fdiff=2.80
+[066]  325- 340 | final=  액체 | seed=1 | pL= 62.5 | pF= 37.5 | chg= 62.28 | grad= 8.64 | edge=0.60 | fdiff=15.84
+[067]  330- 345 | final=  액체 | seed=1 | pL= 79.5 | pF= 20.5 | chg= 65.88 | grad= 8.64 | edge=0.73 | fdiff=35.11
+[068]  335- 350 | final=  액체 | seed=1 | pL= 92.1 | pF=  7.9 | chg= 65.88 | grad= 8.64 | edge=0.47 | fdiff=52.72
+[069]  340- 355 | final=  액체 | seed=1 | pL= 95.6 | pF=  4.4 | chg= 65.88 | grad= 2.64 | edge=0.13 | fdiff=58.94
+[070]  345- 360 | final=  액체 | seed=0 | pL= 82.9 | pF= 17.1 | chg= 65.88 | grad= 0.18 | edge=0.00 | fdiff=58.64
+[071]  350- 365 | final=  바닥 | seed=0 | pL= 57.3 | pF= 42.7 | chg= 66.08 | grad= 0.46 | edge=0.00 | fdiff=58.55
+[072]  355- 370 | final=  바닥 | seed=0 | pL= 72.4 | pF= 27.6 | chg= 67.28 | grad= 0.46 | edge=0.00 | fdiff=59.29
+[073]  360- 375 | final=  바닥 | seed=0 | pL= 82.6 | pF= 17.4 | chg= 68.48 | grad= 0.46 | edge=0.00 | fdiff=60.53
+[074]  365- 380 | final=  액체 | seed=0 | pL= 75.6 | pF= 24.4 | chg= 69.48 | grad= 0.36 | edge=0.00 | fdiff=61.81
+[075]  370- 385 | final=  액체 | seed=1 | pL= 94.6 | pF=  5.4 | chg= 69.48 | grad= 4.40 | edge=0.20 | fdiff=61.91
+[076]  375- 390 | final=  액체 | seed=1 | pL= 88.2 | pF= 11.8 | chg= 69.48 | grad= 9.38 | edge=0.53 | fdiff=52.97
+[077]  380- 395 | final=  액체 | seed=1 | pL= 83.5 | pF= 16.5 | chg= 68.88 | grad= 9.38 | edge=0.67 | fdiff=35.32
+[078]  385- 400 | final=  액체 | seed=1 | pL= 72.9 | pF= 27.1 | chg= 61.88 | grad= 9.38 | edge=0.47 | fdiff=18.31
+[079]  390- 405 | final=  액체 | seed=1 | pL= 91.1 | pF=  8.9 | chg= 16.48 | grad= 4.06 | edge=0.13 | fdiff=9.96
+[080]  395- 410 | final=  액체 | seed=0 | pL= 86.2 | pF= 13.8 | chg= 16.48 | grad= 0.24 | edge=0.00 | fdiff=9.72
+[081]  400- 415 | final=  바닥 | seed=0 | pL= 69.8 | pF= 30.2 | chg= 16.28 | grad= 0.18 | edge=0.00 | fdiff=9.60
+[082]  405- 420 | final=  액체 | seed=0 | pL= 78.7 | pF= 21.3 | chg= 16.48 | grad= 0.28 | edge=0.00 | fdiff=9.65
+[083]  410- 425 | final=  액체 | seed=1 | pL= 64.1 | pF= 35.9 | chg= 17.88 | grad= 1.64 | edge=0.07 | fdiff=10.35
+[084]  415- 430 | final=  액체 | seed=1 | pL= 54.5 | pF= 45.5 | chg= 46.48 | grad= 7.38 | edge=0.40 | fdiff=15.76
+[085]  420- 435 | final=  액체 | seed=1 | pL= 71.8 | pF= 28.2 | chg= 62.48 | grad= 7.38 | edge=0.67 | fdiff=30.01
+[086]  425- 440 | final=  액체 | seed=1 | pL= 87.4 | pF= 12.6 | chg= 62.48 | grad= 7.38 | edge=0.60 | fdiff=44.86
+[087]  430- 445 | final=  액체 | seed=1 | pL= 97.0 | pF=  3.0 | chg= 62.48 | grad= 5.84 | edge=0.27 | fdiff=54.77
+[088]  435- 450 | final=  액체 | seed=0 | pL= 81.1 | pF= 18.9 | chg= 62.08 | grad= 0.10 | edge=0.00 | fdiff=55.73
+[089]  440- 455 | final=  액체 | seed=0 | pL= 62.5 | pF= 37.5 | chg= 62.48 | grad= 0.14 | edge=0.00 | fdiff=55.79
+[090]  445- 460 | final=  액체 | seed=1 | pL= 87.8 | pF= 12.2 | chg= 62.48 | grad= 0.14 | edge=0.00 | fdiff=56.00
+[091]  450- 465 | final=  액체 | seed=1 | pL= 90.5 | pF=  9.5 | chg= 62.68 | grad= 4.36 | edge=0.20 | fdiff=55.68
+[092]  455- 470 | final=  액체 | seed=1 | pL= 88.0 | pF= 12.0 | chg= 62.68 | grad= 7.30 | edge=0.53 | fdiff=47.44
+[093]  460- 475 | final=  액체 | seed=1 | pL= 83.1 | pF= 16.9 | chg= 62.68 | grad= 7.30 | edge=0.67 | fdiff=32.88
+[094]  465- 480 | final=  액체 | seed=1 | pL= 72.5 | pF= 27.5 | chg= 53.48 | grad= 7.30 | edge=0.47 | fdiff=18.74
+[095]  470- 485 | final=  액체 | seed=1 | pL= 77.6 | pF= 22.4 | chg= 18.88 | grad= 2.86 | edge=0.13 | fdiff=12.38
+[096]  475- 490 | final=  액체 | seed=1 | pL= 95.8 | pF=  4.2 | chg= 18.68 | grad= 0.12 | edge=0.00 | fdiff=12.29
+[097]  480- 495 | final=  액체 | seed=0 | pL= 77.6 | pF= 22.4 | chg= 18.88 | grad= 0.16 | edge=0.00 | fdiff=12.33
+[098]  485- 500 | final=  액체 | seed=0 | pL= 65.1 | pF= 34.9 | chg= 19.28 | grad= 0.72 | edge=0.07 | fdiff=12.58
+[099]  490- 505 | final=  액체 | seed=1 | pL= 51.2 | pF= 48.8 | chg= 40.28 | grad= 8.26 | edge=0.40 | fdiff=16.13
+[100]  495- 510 | final=  액체 | seed=1 | pL= 66.2 | pF= 33.8 | chg= 74.68 | grad= 8.54 | edge=0.73 | fdiff=31.08
+[101]  500- 515 | final=  액체 | seed=1 | pL= 83.5 | pF= 16.5 | chg= 75.08 | grad= 8.54 | edge=0.73 | fdiff=49.48
+[102]  505- 520 | final=  액체 | seed=1 | pL= 94.7 | pF=  5.3 | chg= 75.08 | grad= 8.54 | edge=0.40 | fdiff=64.35
+[103]  510- 525 | final=  액체 | seed=0 | pL= 82.9 | pF= 17.1 | chg= 75.08 | grad= 0.84 | edge=0.07 | fdiff=67.59
+[104]  515- 530 | final=  액체 | seed=1 | pL= 85.7 | pF= 14.3 | chg= 73.88 | grad= 0.24 | edge=0.00 | fdiff=66.96
+[105]  520- 535 | final=  액체 | seed=0 | pL= 62.6 | pF= 37.4 | chg= 73.68 | grad= 0.24 | edge=0.00 | fdiff=66.76
+[106]  525- 540 | final=  액체 | seed=1 | pL= 89.2 | pF= 10.8 | chg= 73.68 | grad= 7.12 | edge=0.27 | fdiff=64.99
+[107]  530- 545 | final=  액체 | seed=1 | pL= 87.2 | pF= 12.8 | chg= 73.68 | grad= 7.62 | edge=0.60 | fdiff=53.75
+[108]  535- 550 | final=  액체 | seed=1 | pL= 80.8 | pF= 19.2 | chg= 73.68 | grad= 7.62 | edge=0.60 | fdiff=39.01
+[109]  540- 555 | final=  액체 | seed=1 | pL= 67.4 | pF= 32.6 | chg= 50.68 | grad= 7.62 | edge=0.33 | fdiff=26.28
+[110]  545- 560 | final=  액체 | seed=0 | pL= 82.1 | pF= 17.9 | chg= 30.08 | grad= 0.66 | edge=0.00 | fdiff=23.27
+[111]  550- 565 | final=  액체 | seed=1 | pL= 93.3 | pF=  6.7 | chg= 30.08 | grad= 0.58 | edge=0.00 | fdiff=23.29
+[112]  555- 570 | final=  액체 | seed=1 | pL= 87.5 | pF= 12.5 | chg= 30.08 | grad= 0.58 | edge=0.00 | fdiff=22.40
+[113]  560- 575 | final=  액체 | seed=0 | pL= 76.0 | pF= 24.0 | chg= 29.88 | grad= 0.58 | edge=0.00 | fdiff=21.34
+[114]  565- 580 | final=  바닥 | seed=0 | pL= 84.5 | pF= 15.5 | chg= 27.28 | grad= 0.48 | edge=0.00 | fdiff=20.45
+[115]  570- 585 | final=  바닥 | seed=0 | pL= 80.4 | pF= 19.6 | chg= 26.68 | grad= 0.12 | edge=0.00 | fdiff=20.31

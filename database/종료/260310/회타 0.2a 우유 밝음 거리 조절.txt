@@ -1,0 +1,71 @@
+üInitial floor measurement (5s)... Keep the sensor on the empty floor.
+Collecting baseline... RawAvg=664.60
+Collecting baseline... RawAvg=665.40
+Collecting baseline... RawAvg=666.00
+Collecting baseline... RawAvg=666.40
+Collecting baseline... RawAvg=666.80
+Collecting baseline... RawAvg=667.80
+Collecting baseline... RawAvg=668.80
+Collecting baseline... RawAvg=671.20
+Collecting baseline... RawAvg=674.20
+Collecting baseline... RawAvg=677.40
+Collecting baseline... RawAvg=680.40
+Collecting baseline... RawAvg=682.40
+Collecting baseline... RawAvg=683.20
+Collecting baseline... RawAvg=683.40
+Collecting baseline... RawAvg=683.20
+Collecting baseline... RawAvg=682.80
+Collecting baseline... RawAvg=682.40
+Collecting baseline... RawAvg=682.00
+Collecting baseline... RawAvg=682.00
+Collecting baseline... RawAvg=682.00
+Collecting baseline... RawAvg=681.80
+Collecting baseline... RawAvg=681.40
+Collecting baseline... RawAvg=680.60
+Collecting baseline... RawAvg=678.80
+Collecting baseline... RawAvg=676.60
+Collecting baseline... RawAvg=674.20
+Collecting baseline... RawAvg=672.40
+Collecting baseline... RawAvg=670.60
+Collecting baseline... RawAvg=669.60
+Collecting baseline... RawAvg=668.80
+Collecting baseline... RawAvg=668.20
+Collecting baseline... RawAvg=667.00
+Collecting baseline... RawAvg=666.00
+Collecting baseline... RawAvg=665.00
+Collecting baseline... RawAvg=664.60
+Collecting baseline... RawAvg=664.80
+Collecting baseline... RawAvg=665.60
+Collecting baseline... RawAvg=666.40
+Collecting baseline... RawAvg=667.00
+Collecting baseline... RawAvg=667.00
+Collecting baseline... RawAvg=666.40
+Collecting baseline... RawAvg=665.60
+Collecting baseline... RawAvg=664.80
+Collecting baseline... RawAvg=664.40
+Collecting baseline... RawAvg=664.80
+Collecting baseline... RawAvg=665.60
+Collecting baseline... RawAvg=666.40
+Collecting baseline... RawAvg=667.20
+Collecting baseline... RawAvg=667.40
+Collecting baseline... RawAvg=667.00
+
+Baseline collection complete! Starting detection.
+Final Base Raw Average = 671.77
+--------------------------------------------------------------------------
+Time=0.1s | BaseRaw=671.8 | CurrentRaw=664.0 | Change=7.8 => Water
+Time=0.2s | BaseRaw=671.8 | CurrentRaw=662.6 | Change=9.2 => Water
+Time=0.3s | BaseRaw=671.8 | CurrentRaw=661.2 | Change=10.6 => Water
+Time=0.4s | BaseRaw=671.8 | CurrentRaw=660.2 | Change=11.6 => Water
+Time=0.5s | BaseRaw=671.8 | CurrentRaw=659.0 | Change=12.8 => Water
+Time=0.6s | BaseRaw=671.8 | CurrentRaw=659.4 | Change=12.4 => Water
+Time=0.7s | BaseRaw=671.8 | CurrentRaw=657.8 | Change=14.0 => Water
+Time=0.8s | BaseRaw=671.8 | CurrentRaw=657.8 | Change=14.0 => Water
+Time=0.9s | BaseRaw=671.8 | CurrentRaw=656.6 | Change=15.2 => Coffee
+Time=1.0s | BaseRaw=671.8 | CurrentRaw=657.0 | Change=14.8 => Water
+Time=1.1s | BaseRaw=671.8 | CurrentRaw=656.2 | Change=15.6 => Coffee
+Time=1.2s | BaseRaw=671.8 | CurrentRaw=656.8 | Change=15.0 => Water
+Time=1.3s | BaseRaw=671.8 | CurrentRaw=656.8 | Change=15.0 => Water
+Time=1.4s | BaseRaw=671.8 | CurrentRaw=657.0 | Change=14.8 => Water
+Time=1.5s | BaseRaw=671.8 | CurrentRaw=657.4 | Change=14.4 => Water
+Time=1.6s | BaseRaw=671.8 | CurrentRaw=657.2 | Change=14.6 => Water

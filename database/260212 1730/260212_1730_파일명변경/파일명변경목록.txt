@@ -1,0 +1,36 @@
+coke greyfloor dark.txt -> 207회바 콜라 어두움.txt
+coke greyfloor light.txt -> 207회바 콜라 밝음.txt
+cola grey marbe light 0.20A 1.txt -> 그마 콜라 밝음.txt
+cola grey marbe light 0.20A(ok).txt -> 그마 콜라 밝음 2.txt
+cola grey marbel no light 0.20A.txt -> 그마 콜라 어두움.txt
+greyfloor dark(사진).txt -> 207회바 바닥 어두움.txt
+greyfloor dark1(사진).txt -> 207회바 바닥 어두움 2.txt
+greyfloor light(사진).txt -> 207회바 바닥 밝음.txt
+mago greyfloor light.txt -> 207회바 망고 밝음.txt
+mago greyfloor light1.txt -> 207회바 망고 밝음 2.txt
+mango grey marbel light 0.20A.txt -> 그마 망고 밝음.txt
+mango grey marbel no light 0.20A.txt -> 그마 망고 어두움.txt
+mango, watermelon,oil grey marbel light.txt -> 그마 망고기름수박 밝음.txt
+mango, watermelon,oil grey marbel no light 2.txt -> 그마 망고기름수박 어두움.txt
+mango, watermelon,oil grey marbel no light.txt -> 그마 망고기름수박 어두움 2.txt
+mango, watermelon,oil grey marbel no light111.txt -> 그마 망고기름수박 어두움 3.txt
+milk grey marbel light 20A.txt -> 그마 우유 밝음.txt
+milk grey marbel no light 20A.txt -> 그마 우유 어두움.txt
+oil grey marbel light 0.20A.txt -> 그마 기름 밝음.txt
+oil grey marbel no light 0.20A.txt -> 그마 기름 어두움.txt
+oil greyfloor light.txt -> 207회바 기름 밝음.txt
+oil greyfloor light2.txt -> 207회바 기름 밝음 2.txt
+oil greyfloor light3.txt -> 207회바 기름 밝음 3.txt
+oil,mango,watermelon grey marbel light 0.20A 111.txt -> 그마 망고기름수박 밝음 2.txt
+oil,mango,watermelon grey marbel light 0.20A.txt -> 그마 망고기름수박 밝음 3.txt
+water gray marbel 10A.txt -> 그마 물 조도미분류.txt
+water gray marbel 15A 11.txt -> 그마 물 조도미분류 2.txt
+water gray marbel 15A.txt -> 그마 물 조도미분류 3.txt
+water gray marbel 20A light.txt -> 그마 물 밝음.txt
+water gray marbel 20A no light.txt -> 그마 물 어두움.txt
+water grey marbel light1.txt -> 그마 물 밝음 2.txt
+water greyfloor light.txt -> 207회바 물 밝음.txt
+water,milk,cola grey marbel light.txt -> 그마 물콜라우유 밝음.txt
+water,milk,cola grey marbel no light.txt -> 그마 물콜라우유 어두움.txt
+watermelon grey marbel light 20A.txt -> 그마 수박 밝음.txt
+watermelon grey marbel no light 20A.txt -> 그마 수박 어두움.txt

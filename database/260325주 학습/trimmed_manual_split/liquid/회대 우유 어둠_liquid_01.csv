@@ -1,0 +1,123 @@
+﻿record_type,baseline_raw,base_raw,current_raw,change,graph,raw_data
+info,,,,,,Initial floor measurement (5s)... Keep the sensor on the empty floor.
+info,,,,,,START received
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.0,,,,867.0,Collecting baseline... RawAvg=867.00
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.0,,,,867.0,Collecting baseline... RawAvg=867.00
+baseline,867.0,,,,867.0,Collecting baseline... RawAvg=867.00
+baseline,867.0,,,,867.0,Collecting baseline... RawAvg=867.00
+baseline,867.0,,,,867.0,Collecting baseline... RawAvg=867.00
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+baseline,868.0,,,,868.0,Collecting baseline... RawAvg=868.00
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.2,,,,867.2,Collecting baseline... RawAvg=867.20
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.4,,,,867.4,Collecting baseline... RawAvg=867.40
+baseline,867.6,,,,867.6,Collecting baseline... RawAvg=867.60
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+baseline,867.8,,,,867.8,Collecting baseline... RawAvg=867.80
+info,,,,,,Baseline collection complete! Starting detection.
+final_base,,867.42,,,867.42,Final Base Raw Average = 867.42
+info,,,,,,--------------------------------------------------------------------------
+data,,867.4,867.0,0.4,867.0,Time=5.8s | BaseRaw=867.4 | CurrentRaw=867.0 | Change=0.4 => Floor
+data,,867.4,866.8,0.6,866.8,Time=5.9s | BaseRaw=867.4 | CurrentRaw=866.8 | Change=0.6 => Floor
+data,,867.4,864.2,3.2,864.2,Time=6.0s | BaseRaw=867.4 | CurrentRaw=864.2 | Change=3.2 => Floor
+data,,867.4,857.2,10.2,857.2,Time=6.1s | BaseRaw=867.4 | CurrentRaw=857.2 | Change=10.2 => Liquid
+data,,867.4,845.8,21.6,845.8,Time=6.2s | BaseRaw=867.4 | CurrentRaw=845.8 | Change=21.6 => Liquid
+data,,867.4,833.8,33.6,833.8,Time=6.3s | BaseRaw=867.4 | CurrentRaw=833.8 | Change=33.6 => Liquid
+data,,867.4,820.0,47.4,820.0,Time=6.4s | BaseRaw=867.4 | CurrentRaw=820.0 | Change=47.4 => Liquid
+data,,867.4,808.2,59.2,808.2,Time=6.5s | BaseRaw=867.4 | CurrentRaw=808.2 | Change=59.2 => Liquid
+data,,867.4,800.6,66.8,800.6,Time=6.6s | BaseRaw=867.4 | CurrentRaw=800.6 | Change=66.8 => Liquid
+data,,867.4,797.2,70.2,797.2,Time=6.7s | BaseRaw=867.4 | CurrentRaw=797.2 | Change=70.2 => Liquid
+data,,867.4,795.2,72.2,795.2,Time=6.8s | BaseRaw=867.4 | CurrentRaw=795.2 | Change=72.2 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=6.9s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=7.0s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=7.1s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.4,73.0,794.4,Time=7.2s | BaseRaw=867.4 | CurrentRaw=794.4 | Change=73.0 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=7.3s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.4,73.0,794.4,Time=7.4s | BaseRaw=867.4 | CurrentRaw=794.4 | Change=73.0 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=7.5s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=7.6s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=7.7s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=7.8s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,795.2,72.2,795.2,Time=7.9s | BaseRaw=867.4 | CurrentRaw=795.2 | Change=72.2 => Liquid
+data,,867.4,795.4,72.0,795.4,Time=8.0s | BaseRaw=867.4 | CurrentRaw=795.4 | Change=72.0 => Liquid
+data,,867.4,795.2,72.2,795.2,Time=8.1s | BaseRaw=867.4 | CurrentRaw=795.2 | Change=72.2 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=8.2s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=8.3s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=8.4s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=8.5s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=8.6s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=8.7s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,795.2,72.2,795.2,Time=8.8s | BaseRaw=867.4 | CurrentRaw=795.2 | Change=72.2 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=8.9s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=9.0s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=9.1s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=9.2s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=9.3s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=9.4s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=9.5s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=9.6s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=9.7s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=9.8s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=9.9s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=10.0s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=10.1s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=10.2s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=10.3s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=10.4s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=10.5s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,795.2,72.2,795.2,Time=10.6s | BaseRaw=867.4 | CurrentRaw=795.2 | Change=72.2 => Liquid
+data,,867.4,795.0,72.4,795.0,Time=10.7s | BaseRaw=867.4 | CurrentRaw=795.0 | Change=72.4 => Liquid
+data,,867.4,794.8,72.6,794.8,Time=10.8s | BaseRaw=867.4 | CurrentRaw=794.8 | Change=72.6 => Liquid
+data,,867.4,794.6,72.8,794.6,Time=10.9s | BaseRaw=867.4 | CurrentRaw=794.6 | Change=72.8 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=11.0s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.0,73.4,794.0,Time=11.1s | BaseRaw=867.4 | CurrentRaw=794.0 | Change=73.4 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=11.2s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=11.3s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=11.4s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,794.0,73.4,794.0,Time=11.5s | BaseRaw=867.4 | CurrentRaw=794.0 | Change=73.4 => Liquid
+data,,867.4,793.8,73.6,793.8,Time=11.6s | BaseRaw=867.4 | CurrentRaw=793.8 | Change=73.6 => Liquid
+data,,867.4,793.2,74.2,793.2,Time=11.7s | BaseRaw=867.4 | CurrentRaw=793.2 | Change=74.2 => Liquid
+data,,867.4,793.0,74.4,793.0,Time=11.8s | BaseRaw=867.4 | CurrentRaw=793.0 | Change=74.4 => Liquid
+data,,867.4,794.2,73.2,794.2,Time=11.9s | BaseRaw=867.4 | CurrentRaw=794.2 | Change=73.2 => Liquid
+data,,867.4,800.2,67.2,800.2,Time=12.0s | BaseRaw=867.4 | CurrentRaw=800.2 | Change=67.2 => Liquid
+data,,867.4,811.8,55.6,811.8,Time=12.1s | BaseRaw=867.4 | CurrentRaw=811.8 | Change=55.6 => Liquid
+data,,867.4,825.8,41.6,825.8,Time=12.2s | BaseRaw=867.4 | CurrentRaw=825.8 | Change=41.6 => Liquid
+data,,867.4,840.2,27.2,840.2,Time=12.3s | BaseRaw=867.4 | CurrentRaw=840.2 | Change=27.2 => Liquid
+data,,867.4,853.6,13.8,853.6,Time=12.4s | BaseRaw=867.4 | CurrentRaw=853.6 | Change=13.8 => Liquid
+data,,867.4,862.4,5.0,862.4,Time=12.5s | BaseRaw=867.4 | CurrentRaw=862.4 | Change=5.0 => Floor

@@ -1,0 +1,62 @@
+﻿record_type,baseline_raw,base_raw,current_raw,change,graph,raw_data
+info,,,,,,Initial floor measurement (5s)... Keep the sensor on the empty floor.
+info,,,,,,START received
+baseline,814.2,,,,814.2,Collecting baseline... RawAvg=814.20
+baseline,814.4,,,,814.4,Collecting baseline... RawAvg=814.40
+baseline,814.6,,,,814.6,Collecting baseline... RawAvg=814.60
+baseline,815.0,,,,815.0,Collecting baseline... RawAvg=815.00
+baseline,815.4,,,,815.4,Collecting baseline... RawAvg=815.40
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,817.0,,,,817.0,Collecting baseline... RawAvg=817.00
+baseline,817.0,,,,817.0,Collecting baseline... RawAvg=817.00
+baseline,816.6,,,,816.6,Collecting baseline... RawAvg=816.60
+baseline,816.2,,,,816.2,Collecting baseline... RawAvg=816.20
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,815.6,,,,815.6,Collecting baseline... RawAvg=815.60
+baseline,815.4,,,,815.4,Collecting baseline... RawAvg=815.40
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,816.2,,,,816.2,Collecting baseline... RawAvg=816.20
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,815.6,,,,815.6,Collecting baseline... RawAvg=815.60
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,816.8,,,,816.8,Collecting baseline... RawAvg=816.80
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,815.6,,,,815.6,Collecting baseline... RawAvg=815.60
+baseline,815.6,,,,815.6,Collecting baseline... RawAvg=815.60
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,816.2,,,,816.2,Collecting baseline... RawAvg=816.20
+baseline,816.6,,,,816.6,Collecting baseline... RawAvg=816.60
+baseline,816.6,,,,816.6,Collecting baseline... RawAvg=816.60
+baseline,816.4,,,,816.4,Collecting baseline... RawAvg=816.40
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,815.6,,,,815.6,Collecting baseline... RawAvg=815.60
+baseline,815.2,,,,815.2,Collecting baseline... RawAvg=815.20
+baseline,815.2,,,,815.2,Collecting baseline... RawAvg=815.20
+baseline,815.4,,,,815.4,Collecting baseline... RawAvg=815.40
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,816.2,,,,816.2,Collecting baseline... RawAvg=816.20
+baseline,816.0,,,,816.0,Collecting baseline... RawAvg=816.00
+baseline,815.8,,,,815.8,Collecting baseline... RawAvg=815.80
+baseline,815.4,,,,815.4,Collecting baseline... RawAvg=815.40
+info,,,,,,Baseline collection complete! Starting detection.
+final_base,,815.97,,,815.97,Final Base Raw Average = 815.97
+info,,,,,,--------------------------------------------------------------------------
+data,,816.0,817.6,1.6,817.6,Time=4.5s | BaseRaw=816.0 | CurrentRaw=817.6 | Change=1.6 => Floor
+data,,816.0,818.2,2.2,818.2,Time=4.6s | BaseRaw=816.0 | CurrentRaw=818.2 | Change=2.2 => Floor
+data,,816.0,819.2,3.2,819.2,Time=4.7s | BaseRaw=816.0 | CurrentRaw=819.2 | Change=3.2 => Floor
+data,,816.0,820.2,4.2,820.2,Time=4.8s | BaseRaw=816.0 | CurrentRaw=820.2 | Change=4.2 => Floor
+data,,816.0,821.4,5.4,821.4,Time=4.9s | BaseRaw=816.0 | CurrentRaw=821.4 | Change=5.4 => Floor
+data,,816.0,823.2,7.2,823.2,Time=5.0s | BaseRaw=816.0 | CurrentRaw=823.2 | Change=7.2 => Floor
+data,,816.0,823.8,7.8,823.8,Time=5.1s | BaseRaw=816.0 | CurrentRaw=823.8 | Change=7.8 => Floor

@@ -1,0 +1,290 @@
+InyChange=0.0 => FlooreRaw=278.1 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=95.5s | BaseRaw=278.1 | CurrentRaw=311.8 | Change=0.0 => Floor (aw=278.1 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=95.5s | BaseRaw=278.1 | CurrentRaw=311.8 | Change=0.0 => Floor (ýInitial floor measurement (5s)... Keep the sensor on the empty floor.
+Collecting baseline... RawAvg=286.60
+Collecting baseline... RawAvg=297.00
+Collecting baseline... RawAvg=300.80
+Collecting baseline... RawAvg=301.00
+Collecting baseline... RawAvg=299.00
+Collecting baseline... RawAvg=300.20
+Collecting baseline... RawAvg=295.60
+Collecting baseline... RawAvg=302.00
+Collecting baseline... RawAvg=313.80
+Collecting baseline... RawAvg=327.00
+Collecting baseline... RawAvg=335.20
+Collecting baseline... RawAvg=331.60
+Collecting baseline... RawAvg=320.60
+Collecting baseline... RawAvg=307.20
+Collecting baseline... RawAvg=297.20
+Collecting baseline... RawAvg=296.20
+Collecting baseline... RawAvg=305.60
+Collecting baseline... RawAvg=319.00
+Collecting baseline... RawAvg=331.00
+Collecting baseline... RawAvg=334.00
+Collecting baseline... RawAvg=326.40
+Collecting baseline... RawAvg=313.00
+Collecting baseline... RawAvg=300.00
+Collecting baseline... RawAvg=293.40
+Collecting baseline... RawAvg=297.60
+Collecting baseline... RawAvg=309.00
+Collecting baseline... RawAvg=322.60
+Collecting baseline... RawAvg=332.40
+Collecting baseline... RawAvg=330.80
+Collecting baseline... RawAvg=320.80
+Collecting baseline... RawAvg=307.60
+Collecting baseline... RawAvg=296.60
+Collecting baseline... RawAvg=294.00
+Collecting baseline... RawAvg=302.00
+Collecting baseline... RawAvg=315.00
+Collecting baseline... RawAvg=327.20
+Collecting baseline... RawAvg=332.00
+Collecting baseline... RawAvg=325.40
+Collecting baseline... RawAvg=312.80
+Collecting baseline... RawAvg=299.40
+Collecting baseline... RawAvg=292.20
+Collecting baseline... RawAvg=294.80
+Collecting baseline... RawAvg=305.80
+Collecting baseline... RawAvg=319.40
+Collecting baseline... RawAvg=330.40
+Collecting baseline... RawAvg=329.80
+Collecting baseline... RawAvg=320.80
+Collecting baseline... RawAvg=308.00
+Collecting baseline... RawAvg=296.80
+Collecting baseline... RawAvg=293.00
+
+Baseline collection complete! Starting detection.
+Final Base Raw Average = 310.99
+--------------------------------------------------------------------------
+Time=0.1s | BaseRaw=311.0 | CurrentRaw=312.2 | Change=0.0 => Floor (empty)
+Time=0.2s | BaseRaw=311.0 | CurrentRaw=315.6 | Change=0.0 => Floor (empty)
+Time=0.3s | BaseRaw=311.0 | CurrentRaw=320.0 | Change=0.0 => Floor (empty)
+Time=0.4s | BaseRaw=311.0 | CurrentRaw=324.2 | Change=0.0 => Floor (empty)
+Time=0.5s | BaseRaw=311.0 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=0.6s | BaseRaw=311.0 | CurrentRaw=314.0 | Change=0.0 => Floor (empty)
+Time=0.7s | BaseRaw=311.0 | CurrentRaw=311.4 | Change=0.0 => Floor (empty)
+Time=0.8s | BaseRaw=311.0 | CurrentRaw=314.8 | Change=0.0 => Floor (empty)
+Time=0.9s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floor (empty)
+Time=1.0s | BaseRaw=311.0 | CurrentRaw=313.0 | Change=0.0 => Floor (empty)
+Time=1.1s | BaseRaw=311.0 | CurrentRaw=312.4 | Change=0.0 => Floor (empty)
+Time=1.2s | BaseRaw=311.0 | CurrentRaw=311.4 | Change=0.0 => Floor (empty)
+Time=1.3s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=1.4s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=1.5s | BaseRaw=311.0 | CurrentRaw=313.6 | Change=0.0 => Floor (empty)
+Time=1.6s | BaseRaw=311.0 | CurrentRaw=312.2 | Change=0.0 => Floor (empty)
+Time=1.7s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=1.8s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=1.9s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floor (empty)
+Time=2.0s | BaseRaw=311.0 | CurrentRaw=314.2 | Change=0.0 => Floor (empty)
+Time=2.1s | BaseRaw=311.0 | CurrentRaw=310.6 | Change=0.4 => Floor (empty)
+Time=2.2s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=2.3s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=2.4s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=2.5s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=2.6s | BaseRaw=311.0 | CurrentRaw=309.2 | Change=1.8 => Floor (empty)
+Time=2.7s | BaseRaw=311.0 | CurrentRaw=313.0 | Change=0.0 => Floor (empty)
+Time=2.8s | BaseRaw=311.0 | CurrentRaw=311.2 | Change=0.0 => Floor (empty)
+Time=2.9s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=3.0s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=3.1s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floor (empty)
+Time=3.2s | BaseRaw=311.0 | CurrentRaw=314.6 | Change=0.0 => Floor (empty)
+Time=3.3s | BaseRaw=311.0 | CurrentRaw=312.2 | Change=0.0 => Floor (empty)
+Time=3.4s | BaseRaw=311.0 | CurrentRaw=314.0 | Change=0.0 => Floor (empty)
+Time=3.5s | BaseRaw=311.0 | CurrentRaw=314.2 | Change=0.0 => Floor (empty)
+Time=3.6s | BaseRaw=311.0 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=3.7s | BaseRaw=311.0 | CurrentRaw=315.4 | Change=0.0 => Floor (empty)
+Time=3.8s | BaseRaw=311.0 | CurrentRaw=310.6 | Change=0.4 => Floor (empty)
+Time=3.9s | BaseRaw=311.0 | CurrentRaw=314.6 | Change=0.0 => Floor (empty)
+Time=4.0s | BaseRaw=311.0 | CurrentRaw=313.4 | Change=0.0 => Floor (empty)
+Time=4.1s | BaseRaw=311.0 | CurrentRaw=313.6 | Change=0.0 => Floor (empty)
+Time=4.2s | BaseRaw=311.0 | CurrentRaw=315.2 | Change=0.0 => Floor (empty)
+Time=4.3s | BaseRaw=311.0 | CurrentRaw=312.4 | Change=0.0 => Floor (empty)
+Time=4.4s | BaseRaw=311.0 | CurrentRaw=315.6 | Change=0.0 => Floor (empty)
+Time=4.5s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=4.6s | BaseRaw=311.0 | CurrentRaw=314.8 | Change=0.0 => Floor (empty)
+Time=4.7s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=4.8s | BaseRaw=311.0 | CurrentRaw=313.4 | Change=0.0 => Floor (empty)
+Time=4.9s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=5.0s | BaseRaw=311.0 | CurrentRaw=310.4 | Change=0.6 => Floor (empty)
+Time=5.1s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=5.2s | BaseRaw=311.0 | CurrentRaw=312.0 | Change=0.0 => Floor (empty)
+Time=5.3s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=5.4s | BaseRaw=311.0 | CurrentRaw=313.4 | Change=0.0 => Floor (empty)
+Time=5.5s | BaseRaw=311.0 | CurrentRaw=310.8 | Change=0.2 => Floor (empty)
+Time=5.6s | BaseRaw=311.0 | CurrentRaw=314.4 | Change=0.0 => Floor (empty)
+Time=5.7s | BaseRaw=311.0 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=5.8s | BaseRaw=311.0 | CurrentRaw=314.2 | Change=0.0 => Floor (empty)
+Time=5.9s | BaseRaw=311.0 | CurrentRaw=314.4 | Change=0.0 => Floor (empty)
+Time=6.0s | BaseRaw=311.0 | CurrentRaw=312.2 | Change=0.0 => Floor (empty)
+Time=6.1s | BaseRaw=311.0 | CurrentRaw=314.8 | Change=0.0 => Floor (empty)
+Time=6.2s | BaseRaw=311.0 | CurrentRaw=309.2 | Change=1.8 => Floor (empty)
+Time=6.3s | BaseRaw=311.0 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=6.4s | BaseRaw=311.0 | CurrentRaw=311.2 | Change=0.0 => Floor (empty)
+Time=6.5s | BaseRaw=311.0 | CurrentRaw=310.2 | Change=0.8 => Floor (empty)
+Time=6.6s | BaseRaw=311.0 | CurrentRaw=310.4 | Change=0.6 => Floor (empty)
+Time=6.7s | BaseRaw=311.0 | CurrentRaw=305.4 | Change=5.6 => Water
+Time=6.8s | BaseRaw=311.0 | CurrentRaw=306.6 | Change=4.4 => Floor (empty)
+Time=6.9s | BaseRaw=311.0 | CurrentRaw=303.4 | Change=7.6 => Water
+Time=7.0s | BaseRaw=311.0 | CurrentRaw=304.6 | Change=6.4 => Water
+Time=7.1s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=7.2s | BaseRaw=311.0 | CurrentRaw=305.0 | Change=6.0 => Water
+Time=7.3s | BaseRaw=311.0 | CurrentRaw=309.0 | Change=2.0 => Floor (empty)
+Time=7.4s | BaseRaw=311.0 | CurrentRaw=304.4 | Change=6.6 => Water
+Time=7.5s | BaseRaw=311.0 | CurrentRaw=307.8 | Change=3.2 => Floor (empty)
+Time=7.6s | BaseRaw=311.0 | CurrentRaw=307.0 | Change=4.0 => Floor (empty)
+Time=7.7s | BaseRaw=311.0 | CurrentRaw=306.8 | Change=4.2 => Floor (empty)
+Time=7.8s | BaseRaw=311.0 | CurrentRaw=309.0 | Change=2.0 => Floor (empty)
+Time=7.9s | BaseRaw=311.0 | CurrentRaw=305.8 | Change=5.2 => Water
+Time=8.0s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=8.1s | BaseRaw=311.0 | CurrentRaw=307.0 | Change=4.0 => Floor (empty)
+Time=8.2s | BaseRaw=311.0 | CurrentRaw=308.2 | Change=2.8 => Floor (empty)
+Time=8.3s | BaseRaw=311.0 | CurrentRaw=308.6 | Change=2.4 => Floor (empty)
+Time=8.4s | BaseRaw=311.0 | CurrentRaw=306.4 | Change=4.6 => Floor (empty)
+Time=8.5s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=8.6s | BaseRaw=311.0 | CurrentRaw=304.2 | Change=6.8 => Water
+Time=8.7s | BaseRaw=311.0 | CurrentRaw=307.4 | Change=3.6 => Floor (empty)
+Time=8.8s | BaseRaw=311.0 | CurrentRaw=306.4 | Change=4.6 => Floor (empty)
+Time=8.9s | BaseRaw=311.0 | CurrentRaw=306.0 | Change=5.0 => Floor (empty)
+Time=9.0s | BaseRaw=311.0 | CurrentRaw=308.4 | Change=2.6 => Floor (empty)
+Time=9.1s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=9.2s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=9.3s | BaseRaw=311.0 | CurrentRaw=307.8 | Change=3.2 => Floor (empty)
+Time=9.4s | BaseRaw=311.0 | CurrentRaw=309.8 | Change=1.2 => Floor (empty)
+Time=9.5s | BaseRaw=311.0 | CurrentRaw=310.2 | Change=0.8 => Floor (empty)
+Time=9.6s | BaseRaw=311.0 | CurrentRaw=308.6 | Change=2.4 => Floor (empty)
+Time=9.7s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=9.8s | BaseRaw=311.0 | CurrentRaw=306.4 | Change=4.6 => Floor (empty)
+Time=9.9s | BaseRaw=311.0 | CurrentRaw=310.0 | Change=1.0 => Floor (empty)
+Time=10.0s | BaseRaw=311.0 | CurrentRaw=309.6 | Change=1.4 => Floor (empty)
+Time=10.1s | BaseRaw=311.0 | CurrentRaw=311.8 | Change=0.0 => Floor (empty)
+Time=10.2s | BaseRaw=311.0 | CurrentRaw=311.4 | Change=0.0 => Floor (empty)
+Time=10.3s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=10.4s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=10.5s | BaseRaw=311.0 | CurrentRaw=310.0 | Change=1.0 => Floor (empty)
+Time=10.6s | BaseRaw=311.0 | CurrentRaw=309.8 | Change=1.2 => Floor (empty)
+Time=10.7s | BaseRaw=311.0 | CurrentRaw=311.8 | Change=0.0 => Floor (empty)
+Time=10.8s | BaseRaw=311.0 | CurrentRaw=306.0 | Change=5.0 => Floor (empty)
+Time=10.9s | BaseRaw=311.0 | CurrentRaw=314.4 | Change=0.0 => Floor (empty)
+Time=11.0s | BaseRaw=311.0 | CurrentRaw=304.8 | Change=6.2 => Water
+Time=11.1s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=11.2s | BaseRaw=311.0 | CurrentRaw=304.6 | Change=6.4 => Water
+Time=11.3s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=11.4s | BaseRaw=311.0 | CurrentRaw=306.2 | Change=4.8 => Floor (empty)
+Time=11.5s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=11.6s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=11.7s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=11.8s | BaseRaw=311.0 | CurrentRaw=311.4 | Change=0.0 => Floor (empty)
+Time=11.9s | BaseRaw=311.0 | CurrentRaw=309.0 | Change=2.0 => Floor (empty)
+Time=12.0s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=12.1s | BaseRaw=311.0 | CurrentRaw=305.4 | Change=5.6 => Water
+Time=12.2s | BaseRaw=311.0 | CurrentRaw=314.8 | Change=0.0 => Floor (empty)
+Time=12.3s | BaseRaw=311.0 | CurrentRaw=304.2 | Change=6.8 => Water
+Time=12.4s | BaseRaw=311.0 | CurrentRaw=315.6 | Change=0.0 => Floor (empty)
+Time=12.5s | BaseRaw=311.0 | CurrentRaw=304.6 | Change=6.4 => Water
+Time=12.6s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=12.7s | BaseRaw=311.0 | CurrentRaw=308.0 | Change=3.0 => Floor (empty)
+Time=12.8s | BaseRaw=311.0 | CurrentRaw=314.0 | Change=0.0 => Floor (empty)
+Time=12.9s | BaseRaw=311.0 | CurrentRaw=310.0 | Change=1.0 => Floor (empty)
+Time=13.0s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floor (empty)
+Time=13.1s | BaseRaw=311.0 | CurrentRaw=311.4 | Change=0.0 => Floor (empty)
+Time=13.2s | BaseRaw=311.0 | CurrentRaw=306.6 | Change=4.4 => Floor (empty)
+Time=13.3s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=13.4s | BaseRaw=311.0 | CurrentRaw=304.8 | Change=6.2 => Water
+Time=13.5s | BaseRaw=311.0 | CurrentRaw=315.8 | Change=0.0 => Floor (empty)
+Time=13.6s | BaseRaw=311.0 | CurrentRaw=304.6 | Change=6.4 => Water
+Time=13.7s | BaseRaw=311.0 | CurrentRaw=316.4 | Change=0.0 => Floor (empty)
+Time=13.8s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=13.9s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=14.0s | BaseRaw=311.0 | CurrentRaw=308.8 | Change=2.2 => Floor (empty)
+Time=14.1s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=14.2s | BaseRaw=311.0 | CurrentRaw=310.6 | Change=0.4 => Floor (empty)
+Time=14.3s | BaseRaw=311.0 | CurrentRaw=310.2 | Change=0.8 => Floor (empty)
+Time=14.4s | BaseRaw=311.0 | CurrentRaw=312.6 | Change=0.0 => Floor (empty)
+Time=14.5s | BaseRaw=311.0 | CurrentRaw=306.2 | Change=4.8 => Floor (empty)
+Time=14.6s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=14.7s | BaseRaw=311.0 | CurrentRaw=305.0 | Change=6.0 => Water
+Time=14.8s | BaseRaw=311.0 | CurrentRaw=316.2 | Change=0.0 => Floor (empty)
+Time=14.9s | BaseRaw=311.0 | CurrentRaw=305.0 | Change=6.0 => Water
+Time=15.0s | BaseRaw=311.0 | CurrentRaw=316.8 | Change=0.0 => Floor (empty)
+Time=15.1s | BaseRaw=311.0 | CurrentRaw=307.0 | Change=4.0 => Floor (empty)
+Time=15.2s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=15.3s | BaseRaw=311.0 | CurrentRaw=310.2 | Change=0.8 => Floor (empty)
+Time=15.4s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=15.5s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=15.6s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=15.7s | BaseRaw=311.0 | CurrentRaw=313.2 | Change=0.0 => Floor (empty)
+Time=15.8s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=15.9s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=16.0s | BaseRaw=311.0 | CurrentRaw=304.4 | Change=6.6 => Water
+Time=16.1s | BaseRaw=311.0 | CurrentRaw=316.2 | Change=0.0 => Floor (empty)
+Time=16.2s | BaseRaw=311.0 | CurrentRaw=304.8 | Change=6.2 => Water
+Time=16.3s | BaseRaw=311.0 | CurrentRaw=316.6 | Change=0.0 => Floor (empty)
+Time=16.4s | BaseRaw=311.0 | CurrentRaw=307.0 | Change=4.0 => Floor (empty)
+Time=16.5s | BaseRaw=311.0 | CurrentRaw=314.2 | Change=0.0 => Floor (empty)
+Time=16.6s | BaseRaw=311.0 | CurrentRaw=307.6 | Change=3.4 => Floor (empty)
+Time=16.7s | BaseRaw=311.0 | CurrentRaw=308.6 | Change=2.4 => Floor (empty)
+Time=16.8s | BaseRaw=311.0 | CurrentRaw=306.8 | Change=4.2 => Floor (empty)
+Time=16.9s | BaseRaw=311.0 | CurrentRaw=303.2 | Change=7.8 => Water
+Time=17.0s | BaseRaw=311.0 | CurrentRaw=309.0 | Change=2.0 => Floor (empty)
+Time=17.1s | BaseRaw=311.0 | CurrentRaw=302.0 | Change=9.0 => Water
+Time=17.2s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=17.3s | BaseRaw=311.0 | CurrentRaw=304.2 | Change=6.8 => Water
+Time=17.4s | BaseRaw=311.0 | CurrentRaw=317.0 | Change=0.0 => Floor (empty)
+Time=17.5s | BaseRaw=311.0 | CurrentRaw=306.2 | Change=4.8 => Floor (empty)
+Time=17.6s | BaseRaw=311.0 | CurrentRaw=318.2 | Change=0.0 => Floor (empty)
+Time=17.7s | BaseRaw=311.0 | CurrentRaw=310.4 | Change=0.6 => Floor (empty)
+Time=17.8s | BaseRaw=311.0 | CurrentRaw=317.4 | Change=0.0 => Floor (empty)
+Time=17.9s | BaseRaw=311.0 | CurrentRaw=313.4 | Change=0.0 => Floor (empty)
+Time=18.0s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=18.1s | BaseRaw=311.0 | CurrentRaw=315.0 | Change=0.0 => Floor (empty)
+Time=18.2s | BaseRaw=311.0 | CurrentRaw=310.2 | Change=0.8 => Floor (empty)
+Time=18.3s | BaseRaw=311.0 | CurrentRaw=316.6 | Change=0.0 => Floor (empty)
+Time=18.4s | BaseRaw=311.0 | CurrentRaw=307.8 | Change=3.2 => Floor (empty)
+Time=18.5s | BaseRaw=311.0 | CurrentRaw=318.4 | Change=0.0 => Floor (empty)
+Time=18.6s | BaseRaw=311.0 | CurrentRaw=307.4 | Change=3.6 => Floor (empty)
+Time=18.7s | BaseRaw=311.0 | CurrentRaw=319.4 | Change=0.0 => Floor (empty)
+Time=18.8s | BaseRaw=311.0 | CurrentRaw=308.0 | Change=3.0 => Floor (empty)
+Time=18.9s | BaseRaw=311.0 | CurrentRaw=319.6 | Change=0.0 => Floor (empty)
+Time=19.0s | BaseRaw=311.0 | CurrentRaw=311.8 | Change=0.0 => Floor (empty)
+Time=19.1s | BaseRaw=311.0 | CurrentRaw=318.2 | Change=0.0 => Floor (empty)
+Time=19.2s | BaseRaw=311.0 | CurrentRaw=314.2 | Change=0.0 => Floor (empty)
+Time=19.3s | BaseRaw=311.0 | CurrentRaw=315.6 | Change=0.0 => Floor (empty)
+Time=19.4s | BaseRaw=311.0 | CurrentRaw=315.8 | Change=0.0 => Floor (empty)
+Time=19.5s | BaseRaw=311.0 | CurrentRaw=310.8 | Change=0.2 => Floor (empty)
+Time=19.6s | BaseRaw=311.0 | CurrentRaw=317.4 | Change=0.0 => Floor (empty)
+Time=19.7s | BaseRaw=311.0 | CurrentRaw=308.4 | Change=2.6 => Floor (empty)
+Time=19.8s | BaseRaw=311.0 | CurrentRaw=319.0 | Change=0.0 => Floor (empty)
+Time=19.9s | BaseRaw=311.0 | CurrentRaw=307.4 | Change=3.6 => Floor (empty)
+Time=20.0s | BaseRaw=311.0 | CurrentRaw=319.2 | Change=0.0 => Floor (empty)
+Time=20.1s | BaseRaw=311.0 | CurrentRaw=307.6 | Change=3.4 => Floor (empty)
+Time=20.2s | BaseRaw=311.0 | CurrentRaw=319.0 | Change=0.0 => Floor (empty)
+Time=20.3s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floor (empty)
+Time=20.4s | BaseRaw=311.0 | CurrentRaw=316.8 | Change=0.0 => Floor (empty)
+Time=20.5s | BaseRaw=311.0 | CurrentRaw=313.0 | Change=0.0 => Floor (empty)
+Time=20.6s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=20.7s | BaseRaw=311.0 | CurrentRaw=313.8 | Change=0.0 => Floor (empty)
+Time=20.8s | BaseRaw=311.0 | CurrentRaw=308.6 | Change=2.4 => Floor (empty)
+Time=20.9s | BaseRaw=311.0 | CurrentRaw=315.8 | Change=0.0 => Floor (empty)
+Time=21.0s | BaseRaw=311.0 | CurrentRaw=306.4 | Change=4.6 => Floor (empty)
+Time=21.1s | BaseRaw=311.0 | CurrentRaw=317.4 | Change=0.0 => Floor (empty)
+Time=21.2s | BaseRaw=311.0 | CurrentRaw=306.2 | Change=4.8 => Floor (empty)
+Time=21.3s | BaseRaw=311.0 | CurrentRaw=318.2 | Change=0.0 => Floor (empty)
+Time=21.4s | BaseRaw=311.0 | CurrentRaw=306.8 | Change=4.2 => Floor (empty)
+Time=21.5s | BaseRaw=311.0 | CurrentRaw=317.8 | Change=0.0 => Floor (empty)
+Time=21.6s | BaseRaw=311.0 | CurrentRaw=310.4 | Change=0.6 => Floor (empty)
+Time=21.7s | BaseRaw=311.0 | CurrentRaw=315.6 | Change=0.0 => Floor (empty)
+Time=21.8s | BaseRaw=311.0 | CurrentRaw=312.4 | Change=0.0 => Floor (empty)
+Time=21.9s | BaseRaw=311.0 | CurrentRaw=312.8 | Change=0.0 => Floor (empty)
+Time=22.0s | BaseRaw=311.0 | CurrentRaw=314.0 | Change=0.0 => Floor (empty)
+Time=22.1s | BaseRaw=311.0 | CurrentRaw=308.2 | Change=2.8 => Floor (empty)
+Time=22.2s | BaseRaw=311.0 | CurrentRaw=316.0 | Change=0.0 => Floor (empty)
+Time=22.3s | BaseRaw=311.0 | CurrentRaw=306.0 | Change=5.0 => Floor (empty)
+Time=22.4s | BaseRaw=311.0 | CurrentRaw=317.2 | Change=0.0 => Floor (empty)
+Time=22.5s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=22.6s | BaseRaw=311.0 | CurrentRaw=316.8 | Change=0.0 => Floor (empty)
+Time=22.7s | BaseRaw=311.0 | CurrentRaw=305.6 | Change=5.4 => Water
+Time=22.8s | BaseRaw=311.0 | CurrentRaw=315.2 | Change=0.0 => Floor (empty)
+Time=22.9s | BaseRaw=311.0 | CurrentRaw=308.2 | Change=2.8 => Floor (empty)
+Time=23.0s | BaseRaw=311.0 | CurrentRaw=311.6 | Change=0.0 => Floor (empty)
+Time=23.1s | BaseRaw=311.0 | CurrentRaw=309.4 | Change=1.6 => Floor (empty)
+Time=23.2s | BaseRaw=311.0 | CurrentRaw=308.2 | Change=2.8 => Floor (empty)
+Time=23.3s | BaseRaw=311.0 | CurrentRaw=311.0 | Change=0.0 => Floo
